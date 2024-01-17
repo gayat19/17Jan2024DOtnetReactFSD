@@ -1,0 +1,96 @@
+https://gist.github.com/keeyanajones/2ea808fdca8325a4faf2dbd0a59e0c9e
+
+Entity
+-Strong - Primary Key
+-Derived
+Attribute
+-Simple
+-Complex-> More than one unit of data that can be split to multiple attributes
+-Derived -> Gets the value from another attribute
+-MultiValue -> More than one unit of data but cannot be split into multiple attributes
+
+
+-Composite Key -> More than one column combining to become eh primary key
+
+Avoid Redundency
+Normalization -> 
+1NF 
+-> Should have PK
+-> All values of an attribute should contain Similar type of data
+-> Should not have Multivalue attribute
+
+2NF
+-> Should be in 1NF
+-> No Parital dependency
+
+3NF
+-> Should be in 2NF
+-> No trasitive dependecy
+
+Create database dbCompany17Jan2024
+
+use dbCompany17Jan2024
+
+create table Areas
+(area varchar(50) primary key,
+zipcode char(6))
+
+create table Employees
+(id int identity(101,1) constraint pk_employeeId primary key,
+name varchar(50),
+employee_area varchar(50) constraint fk_employee_area foreign key references Areas(area))
+
+create table Skills
+(Skillname varchar(50) primary key,
+SkillDescription varchar(1000))
+
+create table EmployeeSkills
+(EmployeeId int foreign key references Employees(id),
+Skill varchar(50) references Skills(SkillName),
+SkillLevel float default 1 check (SkillLevel between 1 and 10),
+primary key(EmployeeId,Skill))
+
+
+
+INSERT INTO Areas (area, zipcode) VALUES 
+('Delhi', 14011), 
+('Noida', 14012);
+INSERT INTO Employees (name, employee_area) VALUES 
+( 'Ramu', 'Delhi'),
+( 'Raja', 'Noida');
+
+INSERT INTO Skills (Skillname, skilldescription) VALUES 
+('C#', '.NET'),
+('C++', 'Basics of C++');
+INSERT INTO EmployeeSkills (EmployeeId, skill, skilllevel) VALUES 
+(101, 'C++', 7)
+
+select * from EmployeeSkills
+-----------------------------------------------------
+Stored Procedure
+  Creating a procedure
+  Executing the procedure
+
+Improves performance - Pre compiled and storing generated execution plan
+Secure - Avoids Data Injection with help of parameters
+-------------------------------------------------
+https://pgexercises.com/gettingstarted.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
