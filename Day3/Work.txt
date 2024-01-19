@@ -1,0 +1,46 @@
+Class
+   Property
+   Behaviour
+
+Overloading
+Overriding
+
+
+CRUD
+
+C - Create
+R - Read
+U - Update
+D - Delete(soft/hard)
+
+FE - Front End
+BL - Business Logic
+DAL - Data Access Layer
+
+
+Interface
+Collection
+Generics
+
+Exception Handling
+
+
+
+int[] nums = { 100, 67, 89, 90, 65, 23, 94, 85 };
+//List<int> numbers = new List<int>();
+//foreach (int num in nums)
+//{
+//    if(num>70)
+//        numbers.Add(num);
+//}
+//List<int> numbers = (from n in nums where n > 70 select n).ToList();
+List<int> numbers = nums.Where(n => n > 70).ToList();
+foreach (int num in numbers)
+    Console.WriteLine(num);
+return null;
+
+https://learn.microsoft.com/en-us/dotnet/csharp/ 
+https://dotnettutorials.net/course/csharp-dot-net-tutorials/
+
+https://www.youtube.com/watch?v=SXmVym6L8dw&list=PLAC325451207E3105
+https://www.youtube.com/watch?v=4haHRVjgJVs&list=PLTw0a6pUfCNvBqeVMVF_io3VIEHCT6V-Q
