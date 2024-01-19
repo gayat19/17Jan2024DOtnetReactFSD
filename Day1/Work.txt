@@ -75,6 +75,144 @@ Improves performance - Pre compiled and storing generated execution plan
 Secure - Avoids Data Injection with help of parameters
 -------------------------------------------------
 https://pgexercises.com/gettingstarted.html
+-------------------------------------------
+create procedure proc_GetAllAuthors
+as
+  select * from authors
+
+exec proc_GetAllAuthors
+
+create proc proc_GetAuthorsFromGivenState(@statename varchar(5))
+as
+   select * from authors where state = @statename
+
+exec proc_GetAuthorsFromGivenState 'CA'
+
+alter proc proc_GetAuthorsFromGivenState(@statename varchar(5))
+as
+begin
+declare
+@authourcount int 
+
+	set @authourcount = (select count(*) from authors where state = @statename)
+	if(@authourcount =0)
+	   select 'No authors from the given state'
+	else
+	   select * from authors where state = @statename
+end
+
+exec proc_GetAuthorsFromGivenState 'FA'
+
+
+select * from TItles
+
+--create a procedure that will take the min and max price and fetch all teh books in the given price range
+create procedure proc_GetAllBooksInTheGivenRange(@minPrice float, @maxPrice float)
+as
+begin
+    declare @booksCount int
+	set @booksCount=(select count(*) from titles where price between @minPrice and @maxPrice)
+	if(@booksCount=0)
+		 select 'No books in given range'
+    else
+        select * from titles 
+        where price between @minPrice and @maxPrice;
+end
+ 
+exec proc_GetAllBooksInTheGivenRange 4.12,11.8;
+exec proc_GetAllBooksInTheGivenRange 41.12,51.8;
+
+--create a procedure that will print the number of books for every publisher
+create proc proc_CountBookForEveyPublisher
+as
+  select pub_id,count(title_id) 'Number of books published' from titles group by pub_id
+
+  exec proc_CountBookForEveyPublisher
+
+--create a procedure that will print the number of books for every publisher only if published more than 5 books
+
+create proc proc_CountBookForEveyPublisherWithMin(@min int)
+as
+  select pub_id,count(title_id) 'Number of books published' from titles 
+  group by pub_id
+  having count(title_id) > @min
+
+  exec proc_CountBookForEveyPublisherWithMin 5
+
+--Create a  procedure that takes a min number and fetches the count of books that are 
+--priced higher than the given min for every pulisher
+--Only if theyhave published more than 2 books
+--in desending order of count
+
+alter proc proc_countofbooks(@min int)
+as
+begin
+select pub_id,count(title_id) 'Number of books published' from titles 
+where price>@min
+  group by pub_id
+  having count(title_id) > 2
+  order by 'Number of books published' desc
+end
+exec proc_countofbooks 4
+
+
+--Creating the procedure--
+create procedure proc_FirstProcedure
+as
+begin
+  select 'Hello World!!!'
+end
+
+--Executing procedure--
+execute proc_FirstProcedure
+
+--Parameterin procedure
+Create proc proc_SampelWithParameter(@cname varchar(20))
+as
+begin
+  select concat('Hello ',@cname)
+end
+
+alter proc proc_SampelWithParameter(@cname varchar(20))
+as
+begin
+  select concat('Welcome ',@cname)
+end
+
+--Execute procedure with paramter
+exec proc_SampelWithParameter 'Ramu'
+
+use dbCompany17Jan2024
+
+sp_help skills
+
+--create a procedure that will take skill name, skill description, employee id, skill level and inert in to 
+--skills and EmployeeSkills table
+create proc proc_InsertSkillAndEmployeeSkill
+(@sname varchar(50),@sdescription varchar(1000),@eid int,@slevel float)
+as
+begin
+declare 
+	 @scount int,
+	@ecount int
+	set @scount = (Select count(*) from skills where skillname = @sname)
+	if(@scount=0)
+		insert into skills values(@sname,@sdescription)
+	else
+		select 'Skill already present'
+	set @ecount = (Select count(*) from employees where id = @eid)
+	if(@ecount >0)
+		insert into employeeSkills values(@eid,@sname,@slevel)
+	else
+		select 'No such Employee'
+end
+
+select * from EmployeeSkills
+select * from Skills
+
+exec proc_InsertSkillAndEmployeeSkill 'Java', 'Web', 104,6
+
+
 
 
 

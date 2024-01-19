@@ -1,0 +1,236 @@
+Functions
+  Always return values
+	Scalar
+	   Consolidation
+	Table Value
+
+--create sp that will take the auhor id and five back the fullname
+select * from authors
+
+create proc proc_GetAuthodFullname(@authid char(11),@authname varchar(100) out)
+as
+  set @authname = (select concat(au_fname,' ',au_lname) 'Author Name' from authors where au_id = @authid)
+
+declare 
+  @aname varchar(100)
+begin
+  exec proc_GetAuthodFullname '172-32-1176', @aname out
+  print @aname
+end
+
+select * from titles
+
+select * from publishers cross join stores
+
+select pub_name, count(title) No_of_Books from publishers left outer join titles
+on publishers.pub_id = titles.pub_id
+where type in ('business','psychology')
+group by pub_name
+having count(title)>2
+order by count(title) desc
+
+--------------------------------------------
+create function fn_sample()
+returns varchar(15)
+as
+begin
+  return 'Hello World';
+end
+
+
+select dbo.fn_sample()
+
+--function that calculates price
+create function fn_CalculateTotalPrice(@uprice float,@qty int)
+returns float
+as
+begin
+declare @total float
+
+	set @total = @uprice*@qty
+	set @total = @total +(@total*12.36/100)
+	return @total
+   
+end
+
+select dbo.fn_CalculateTotalPrice(12.45,100) 
+
+select title, sum(dbo.fn_CalculateTotalPrice(t.price,s.qty)) total_price from titles t inner join sales s
+on t.title_id = s.title_id
+group by title
+order by 1
+
+select * from titles
+--create a function that can be used to calculate the royalty to be paid for every book (royalty% in title table)
+--USe the function to print the total royalty for everybook
+---------------------------------------------------------------------------------------------------------------
+
+TRiggers
+  Automatically executes when the associated action happens
+  Reduces manul effort
+
+--create sp that will take the auhor id and five back the fullname
+select * from authors
+
+create proc proc_GetAuthodFullname(@authid char(11),@authname varchar(100) out)
+as
+  set @authname = (select concat(au_fname,' ',au_lname) 'Author Name' from authors where au_id = @authid)
+
+declare 
+  @aname varchar(100)
+begin
+  exec proc_GetAuthodFullname '172-32-1176', @aname out
+  print @aname
+end
+
+select * from titles
+
+select * from publishers cross join stores
+
+select pub_name, count(title) No_of_Books from publishers left outer join titles
+on publishers.pub_id = titles.pub_id
+where type in ('business','psychology')
+group by pub_name
+having count(title)>2
+order by count(title) desc
+
+--------------------------------------------
+create function fn_sample()
+returns varchar(15)
+as
+begin
+  return 'Hello World';
+end
+
+
+select dbo.fn_sample()
+
+--function that calculates price
+create function fn_CalculateTotalPrice(@uprice float,@qty int)
+returns float
+as
+begin
+declare @total float
+
+	set @total = @uprice*@qty
+	set @total = @total +(@total*12.36/100)
+	return @total
+   
+end
+
+select dbo.fn_CalculateTotalPrice(12.45,100) 
+
+select title, sum(dbo.fn_CalculateTotalPrice(t.price,s.qty)) total_price from titles t inner join sales s
+on t.title_id = s.title_id
+group by title
+order by 1
+
+select * from titles
+--create a function that can be used to calculate the royalty to be paid for every book (royalty% in title table)
+--USe the function to print the total royalty for everybook
+create function CalculateRoyalty(@price DECIMAL(10, 2), @royaltyPercentage DECIMAL(5, 2))
+returns DECIMAL(10, 2)
+as
+begin
+    DECLARE @royaltyamount DECIMAL(10, 2);
+    SET @royaltyamount = @price * @royaltyPercentage / 100;
+    return @royaltyamount;
+end;
+ 
+select title,price,royalty,
+    dbo.CalculateRoyalty(price, royalty) as TotalRoyalty
+from titles;
+
+---------------------------------------------------------------
+create table tbl1(f1 int,f2 varchar(10))
+
+create or alter trigger trg_Insert
+on tbl1
+for insert
+as
+begin
+  declare @name varchar(10)
+  set @name = (select f2 from inserted)
+  print concat('hello ',@name)
+end
+
+insert into tbl1 values(3,'ABC')
+
+--
+select * from sales where ord_num = '6899'
+
+create or alter trigger trg_InsertOrder
+on sales
+instead of insert
+as
+begin
+    declare @myqty int
+	set @myqty = (select qty from inserted)
+	if(@myqty<0)
+		set @myqty = 0-@myqty
+	INSERT INTO [dbo].[sales]
+           ([stor_id]
+           ,[ord_num]
+           ,[ord_date]
+           ,[qty]
+           ,[payterms]
+           ,[title_id])
+     VALUES
+           ((select stor_id from inserted)
+           ,(select ord_num from inserted)
+           ,SYSDATETIME()
+           ,@myqty
+           ,(select payterms from inserted)
+           ,(select title_id from inserted))
+end
+
+INSERT INTO [dbo].[sales]
+           ([stor_id]
+           ,[ord_num]
+           ,[ord_date]
+           ,[qty]
+           ,[payterms]
+           ,[title_id])
+     VALUES
+           ('6380'
+           ,'6899'
+           ,SYSDATETIME()
+           ,-3
+           ,'ON invoice'
+           ,'BU1032')
+
+select * from employee
+--Create a trigger that will ensure the insert in to the employees table if the 
+--hire date is greater or equal to the current date
+
+select * from titles
+
+select * from Employees
+
+create trigger trg_EmployeeInsert
+on Employees
+instead of insert
+as
+begin
+   declare @area varchar(20),@name varchar(20)
+   set @area = (select employee_area from inserted)
+   set @name = (select name from inserted)
+   if((select count(*) from areas where area = @area)>0)
+	  insert into Employees(name,employee_area) values(@name,@area)
+   else
+      print 'Invalid area'
+end
+
+insert into Employees(name,employee_area) values('Komu','hsfd')
+
+sp_help Employees
+
+---------------------------------------------------------------------------------------
+Index
+  Clustered
+  Non-Clustred
+Primary key of a table automatically generated an clustered index
+We can create other inxed on the table based on teh search needs
+
+
+	
