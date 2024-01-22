@@ -1,4 +1,5 @@
-﻿using FirstApp.Interfaces;
+﻿using FirstApp.Exceptions;
+using FirstApp.Interfaces;
 using FirstApp.Models;
 using System;
 using System.Collections.Generic;
@@ -27,17 +28,17 @@ namespace FirstApp.Repository
             return ++id;
         }
         /// <summary>
-        /// Adds the given product object to the collection, if the product is not already present
+        /// 
         /// </summary>
-        /// <param name="product">Object to be addes to the products collection</param>
-        /// <returns>The product object that is added/Null if the product is duplicated</returns>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        /// <exception cref="ProductAlreadyPresentException"></exception>
         public Product? Add(Product product)
         {
             product.Id = GenerateID();
             if(products.Contains(product))
             {
-                Console.WriteLine("Product already present");
-                return null;
+                throw new ProductAlreadyPresentException();
             }
             products.Add(product);
             return product;
