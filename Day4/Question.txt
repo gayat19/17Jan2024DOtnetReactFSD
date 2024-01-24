@@ -1,0 +1,8 @@
+Use the application you created on Day3 Question 7
+(For your reff
+7) Create a layered application that will as of now do the CRUD for doctors
+
+Doctor properties -> Id, Name, Age, Qualification, Experience, Specialty)
+
+Create the business tier(Service Layer) and the FE for the same
+

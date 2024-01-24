@@ -60,7 +60,7 @@ namespace FirstApp.Models
                 "\nImage Path : \t" + Picture;
         }
 
-        public bool Equals(Product? other)
+        public virtual bool Equals(Product? other)
         {
             return this.Name == other.Name;
         }

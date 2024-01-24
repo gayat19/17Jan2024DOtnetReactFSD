@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\bin\Debug\net6.0\DesignPatternApp.exe
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\bin\Debug\net6.0\DesignPatternApp.deps.json
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\bin\Debug\net6.0\DesignPatternApp.runtimeconfig.json
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\bin\Debug\net6.0\DesignPatternApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\bin\Debug\net6.0\DesignPatternApp.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.sourcelink.json
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\refint\DesignPatternApp.dll
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.pdb
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\DesignPatternApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day5\DesignPatternSolution\DesignPatternApp\obj\Debug\net6.0\ref\DesignPatternApp.dll

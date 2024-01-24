@@ -1,0 +1,61 @@
+Exception - Unexpected situation during execution
+   Pre defined
+   User Defined
+
+ int num1=0, num2=0, result=0;
+ try
+ {
+     Console.WriteLine("Please enter the first number");
+     num1 = Convert.ToInt32(Console.ReadLine());
+     Console.WriteLine("Please enter the second number");
+     num2 = Convert.ToInt32(Console.ReadLine());
+     try
+     {
+         result = num1 / num2;
+     }
+     catch (DivideByZeroException dbze)
+     {
+         Console.WriteLine("The denominator cannot be zero. COuld not divide");
+     }
+     Console.WriteLine($"The result of dividing {num1} by {num2} is {result}");
+ }
+ catch (FormatException fe)
+ {
+     Console.WriteLine("Input was not in the required format");
+ }
+ catch(OverflowException overflow)
+ {
+     Console.WriteLine("The input is too big for conversion");
+ }
+
+
+--------------------------
+Task
+using System;
+using FirstApp.Models;
+using FirstApp.Repository;
+
+namespace FirstApp
+{
+    internal class Program
+    {
+
+        async static Task<string> GetData()
+        {
+            Thread.Sleep(1000);
+            return "Helo from task";
+        }
+        async static Task Main(string[] args)
+        {
+
+            Console.WriteLine("Hello before task");
+            Console.WriteLine("After the task creation");
+            var restlt = await GetData();
+            Console.WriteLine(restlt);
+            Console.WriteLine( "Hello after task");
+
+        }
+    }
+}
+
+---------------------------------------

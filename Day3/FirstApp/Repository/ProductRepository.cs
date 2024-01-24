@@ -64,11 +64,6 @@ namespace FirstApp.Repository
 
         public List<Product> GetAll()
         {
-            if(products.Count == 0)
-            {
-                Console.WriteLine("No products available at present");
-                return null;
-            }
             return products;
         }
 

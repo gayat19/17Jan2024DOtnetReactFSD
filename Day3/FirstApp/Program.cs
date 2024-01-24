@@ -10,14 +10,17 @@ namespace FirstApp
     internal class Program
     {
         readonly IProductAdminService _productAdminService;
+        readonly IProductUserService _productUserService;
         public Program()
         {
-            _productAdminService = new ProductService();
+            ProductService productService = new ProductService();
+            _productAdminService = productService;
+            _productUserService = productService;
         }
         async static Task Main(string[] args)
         {
             Program program = new Program();
-            Product product = new Product()
+            Product product = new VirtualProduct()
             {
                 Name = "Test",
                 Price = 10.4f,
@@ -28,12 +31,27 @@ namespace FirstApp
             try
             {
                 var result1 = await program._productAdminService.AddProduct(product);
-                var result2 = await program._productAdminService.AddProduct(product);
-                Console.WriteLine(result1);
+
+                if (result1 != null)
+                    Console.WriteLine("Pouct Added");
+                else
+                    Console.WriteLine("Something went worng");
             }
             catch (ProductAlreadyPresentException pape)
             {
                 Console.WriteLine(pape.Message);
+            }
+            try
+            {
+                var result = await program._productUserService.GetAllProducts();
+                foreach (var item in result)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            catch (NoProductsAvailableException npae)
+            {
+                Console.WriteLine(npae.Message);
             }
 
         }

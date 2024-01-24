@@ -1,0 +1,24 @@
+SOLID
+
+Single Responsibility
+
+Open and Closed
+
+Liskov Substitution 
+
+Iterface Segregation
+
+I1 -> Add
+I2 Inherits I1 and -> UPdate, Delete, Get
+
+Dependency Inversion
+
+https://dotnettutorials.net/course/solid-design-principles/
+https://www.c-sharpcorner.com/UploadFile/damubetha/solid-principles-in-C-Sharp/
+https://dotnettutorials.net/course/dot-net-design-patterns/
+
+
+design Pattern
+
+Creational -> Singleton -> Only one object of the call will exist, Factory
+Builder -> 
