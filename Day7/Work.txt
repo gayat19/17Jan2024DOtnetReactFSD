@@ -1,0 +1,11 @@
+Unit Testing
+  Test Every Module
+  Range of data
+  Repeated testing - after change
+  Not afftecting teh production database
+
+
+Testing steps
+Arrange
+Action
+Assert

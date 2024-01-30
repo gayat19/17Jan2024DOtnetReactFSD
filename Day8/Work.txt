@@ -1,0 +1,43 @@
+REST API -> Represtational State Transfer
+
+Employee/E001
+Tickets/1
+Issues
+
+http://EmployeeTicketApp/Employees - to get all the employees - GET
+http://EmployeeTicketApp/Employees/E001 - to get  the employee E001- GET
+http://EmployeeTicketApp/Employees - To Create  the employee withe teh data in the body of teh request- POST
+
+
+Controllers
+   
+
+GET - Retriving
+POST- Creation
+PUT - Editing
+DELETE - Deleting
+
+EF Core
+ORM
+ADO.NET -> ActiveX Data Object
+
+Table <-> Collection
+Row <-> Object
+Attribute <-> Property
+
+Code First Approch - Create the model in class and you migrate it to the database
+Database First Approch - Create the table in Database and create class from the schema
+
+1) Adding the required NuGet Packages
+	Microsoft.EntityFrameworkCore.SqlServer Version="6.0.26" 
+	Microsoft.EntityFrameworkCore.Tools Version="6.0.26"
+2) Creating the models
+3) CReating the relations(If required)
+4) Creating the Context class for the connectivity
+	Create class and inherit from DbContext
+ 	Override the OnConfirguration for providing teh conenction sting
+	Add all the Models as DbSet for Table creation
+5) Adding the connection string
+6) Doing the migration
+7) Updating the database
+8) Tada all set!!!!!
