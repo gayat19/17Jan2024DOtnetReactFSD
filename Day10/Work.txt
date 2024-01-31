@@ -1,0 +1,5 @@
+DI - > loosly coupled - change is easy, testing becomes easy
+ Modes
+   Singleton - one object for all request and all injection
+   Scoped - one new object for every request
+   Transient - one object for every injection

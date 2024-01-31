@@ -1,0 +1,1 @@
+Create the layers for teh clinic app and also implement DI for teh same
