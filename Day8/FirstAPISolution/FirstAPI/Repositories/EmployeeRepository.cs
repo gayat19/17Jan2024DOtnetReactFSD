@@ -25,6 +25,7 @@ namespace FirstAPI.Repositories
         {
             var employee = await GetAsync(key);
             _context?.Employees.Remove(employee);
+            _context.SaveChanges();
             return employee;
         }
 

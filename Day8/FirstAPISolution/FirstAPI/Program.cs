@@ -20,14 +20,25 @@ namespace FirstAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            #region contexts
             builder.Services.AddDbContext<RequestTarkerContext>(opts =>
             {
                 opts.UseSqlServer(builder.Configuration.GetConnectionString("requestTrackerConnection"));
             });
+            #endregion
 
+            #region RepositoryInjection
             builder.Services.AddScoped<IRepository<int,Employee>,EmployeeRepository>();
+            builder.Services.AddScoped<IRepository<int,Request>,RequestRepository>();
+            #endregion
+
+
+            #region ServiceInjection
             builder.Services.AddScoped<IEmployeeUserService, EmployeeService>();
             builder.Services.AddScoped<IEmployeeAdminService, EmployeeService>();
+            builder.Services.AddScoped<IRequestEmployeeService, RequestEmployeeService>();
+            #endregion
+
 
             var app = builder.Build();
 

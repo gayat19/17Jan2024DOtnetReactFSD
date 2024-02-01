@@ -18,7 +18,8 @@ namespace FirstAPI.Models
         [ForeignKey("DepartmentId")]
         public Departmnet? Department { get; set; }
 
-
+        public ICollection<Request>? RaisedRequests { get; set; }
+        public ICollection<Request>? ResolvedRequests { get; set; }
         public Employee()
         {
             Id = 0;

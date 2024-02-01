@@ -1,0 +1,9 @@
+Request Model -  Validation
+Update the context - Fluent API
+Do migration
+Repository - Logs
+Service  - Logs
+Unit Test - Injection Understanding
+Controller - Response Status Codes
+
+Employee-> Request one->Many

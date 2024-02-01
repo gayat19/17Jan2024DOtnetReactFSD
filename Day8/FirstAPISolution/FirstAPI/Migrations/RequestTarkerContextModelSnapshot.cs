@@ -51,7 +51,6 @@ namespace FirstAPI.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("DepartmentId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -76,15 +75,85 @@ namespace FirstAPI.Migrations
                     b.ToTable("Employees");
                 });
 
+            modelBuilder.Entity("FirstAPI.Models.Request", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Issuer_Id")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastUpdatedDte")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("RaisedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RequestText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RequestType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ResolvedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("Resolver_Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Issuer_Id");
+
+                    b.HasIndex("Resolver_Id");
+
+                    b.ToTable("Requests");
+                });
+
             modelBuilder.Entity("FirstAPI.Models.Employee", b =>
                 {
                     b.HasOne("FirstAPI.Models.Departmnet", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId")
+                        .WithMany("Employees")
+                        .HasForeignKey("DepartmentId");
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("FirstAPI.Models.Request", b =>
+                {
+                    b.HasOne("FirstAPI.Models.Employee", "Issuer")
+                        .WithMany("RaisedRequests")
+                        .HasForeignKey("Issuer_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Department");
+                    b.HasOne("FirstAPI.Models.Employee", "Resolver")
+                        .WithMany("ResolvedRequests")
+                        .HasForeignKey("Resolver_Id");
+
+                    b.Navigation("Issuer");
+
+                    b.Navigation("Resolver");
+                });
+
+            modelBuilder.Entity("FirstAPI.Models.Departmnet", b =>
+                {
+                    b.Navigation("Employees");
+                });
+
+            modelBuilder.Entity("FirstAPI.Models.Employee", b =>
+                {
+                    b.Navigation("RaisedRequests");
+
+                    b.Navigation("ResolvedRequests");
                 });
 #pragma warning restore 612, 618
         }
