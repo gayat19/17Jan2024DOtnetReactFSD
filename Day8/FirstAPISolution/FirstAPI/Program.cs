@@ -30,6 +30,7 @@ namespace FirstAPI
             #region RepositoryInjection
             builder.Services.AddScoped<IRepository<int,Employee>,EmployeeRepository>();
             builder.Services.AddScoped<IRepository<int,Request>,RequestRepository>();
+            builder.Services.AddScoped<IRepository<string, User>, UserRepository>();
             #endregion
 
 
@@ -37,6 +38,7 @@ namespace FirstAPI
             builder.Services.AddScoped<IEmployeeUserService, EmployeeService>();
             builder.Services.AddScoped<IEmployeeAdminService, EmployeeService>();
             builder.Services.AddScoped<IRequestEmployeeService, RequestEmployeeService>();
+            builder.Services.AddScoped<IUserService,USerService >();
             #endregion
 
 

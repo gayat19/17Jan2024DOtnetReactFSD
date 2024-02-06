@@ -1,0 +1,7 @@
+1) https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+2) https://leetcode.com/problems/valid-palindrome/description/
+3) https://leetcode.com/problems/add-binary/description/
+4) https://leetcode.com/problems/plus-one/description/
+5) https://leetcode.com/problems/longest-common-prefix/description/
+6) https://leetcode.com/problems/linked-list-cycle/description/
+7) https://leetcode.com/problems/majority-element/description/

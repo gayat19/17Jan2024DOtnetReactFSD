@@ -13,10 +13,14 @@ namespace FirstAPI.Models
         public string Phone { get; set; } = string.Empty;
         public string? Pic { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public string Username { get; set; }
         public int? DepartmentId { get; set; }
         //This one is just for navigation and will not be created as an attribute in table
         [ForeignKey("DepartmentId")]
         public Departmnet? Department { get; set; }
+
+        [ForeignKey("Username")]
+        public User User { get; set; }
 
         public ICollection<Request>? RaisedRequests { get; set; }
         public ICollection<Request>? ResolvedRequests { get; set; }

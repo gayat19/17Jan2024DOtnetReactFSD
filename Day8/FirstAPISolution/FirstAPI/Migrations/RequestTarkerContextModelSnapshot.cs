@@ -37,6 +37,18 @@ namespace FirstAPI.Migrations
                     b.HasKey("DeparmentNumber");
 
                     b.ToTable("Departments");
+
+                    b.HasData(
+                        new
+                        {
+                            DeparmentNumber = 1,
+                            Name = "IT"
+                        },
+                        new
+                        {
+                            DeparmentNumber = 2,
+                            Name = "Admin"
+                        });
                 });
 
             modelBuilder.Entity("FirstAPI.Models.Employee", b =>
@@ -68,9 +80,16 @@ namespace FirstAPI.Migrations
                     b.Property<string>("Pic")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
 
                     b.ToTable("Employees");
                 });
@@ -118,13 +137,43 @@ namespace FirstAPI.Migrations
                     b.ToTable("Requests");
                 });
 
+            modelBuilder.Entity("FirstAPI.Models.User", b =>
+                {
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<byte[]>("Key")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("Password")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Username");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("FirstAPI.Models.Employee", b =>
                 {
                     b.HasOne("FirstAPI.Models.Departmnet", "Department")
                         .WithMany("Employees")
                         .HasForeignKey("DepartmentId");
 
+                    b.HasOne("FirstAPI.Models.User", "User")
+                        .WithOne("Employee")
+                        .HasForeignKey("FirstAPI.Models.Employee", "Username")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Department");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("FirstAPI.Models.Request", b =>
@@ -154,6 +203,12 @@ namespace FirstAPI.Migrations
                     b.Navigation("RaisedRequests");
 
                     b.Navigation("ResolvedRequests");
+                });
+
+            modelBuilder.Entity("FirstAPI.Models.User", b =>
+                {
+                    b.Navigation("Employee")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

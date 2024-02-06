@@ -1,0 +1,41 @@
+Login Module
+  username
+  password
+
+username
+password
+
+
+LoginUSerDTO
+  username - string
+  password - string
+
+User
+  username - string
+  password - byte[]
+  Role - string
+
+
+RegisterUserDTO
+  Name
+  Phone
+  Email
+  Pic
+  DateOfBirth
+  Password - string
+  DepartmnetId
+  
+User
+Employee
+
+
+HTTP status code
+1XX- Information
+2XX - Success
+3XX - redirection
+4XX - Client Side error
+5XX - Server side error
+
+
+
+  
