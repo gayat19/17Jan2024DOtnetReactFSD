@@ -1,0 +1,16 @@
+Authentication - Checking the credentials - Token
+Authorization - Allowing access to resource - role based 
+
+
+JWT - Json Web Token
+
+ITokenService
+TokenService
+  GenerateToken(LoginUserDTO) - String
+
+Add the secret key to the appsetting file
+
+Implement the GenerateToken method in service
+
+Modify the USerService to add the token in the return object
+Add the Authentication filter in Program.cs

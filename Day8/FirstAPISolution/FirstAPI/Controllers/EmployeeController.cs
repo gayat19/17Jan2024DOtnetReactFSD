@@ -3,6 +3,7 @@ using FirstAPI.Models;
 using FirstAPI.Models.DTOs;
 using FirstAPI.OLdWays;
 using FirstAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,13 +22,14 @@ namespace FirstAPI.Controllers
         public EmployeeController(IEmployeeAdminService adminService) {
             _adminService = adminService;
         }
+       [Authorize]
         [HttpGet]
         public async Task<List<Employee>> GetEmployees()
         {
             var employees = await _adminService.GetEmployeeListAsync();
             return employees;
         }
-
+        [Authorize(Roles = "admin")]
         [HttpGet("GetById")]
         public async Task<Employee> GetEmployees(int id)
         {
@@ -35,7 +37,9 @@ namespace FirstAPI.Controllers
             return employee;
         }
 
+        
         [HttpPost]
+
         public async Task<Employee> Post(Employee employee)
         {
             employee = await _adminService.AddEmployee(employee);

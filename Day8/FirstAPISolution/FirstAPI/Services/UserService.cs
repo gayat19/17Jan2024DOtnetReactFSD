@@ -12,14 +12,17 @@ namespace FirstAPI.Services
     {
         private readonly IRepository<int, Employee> _employeeRepository;
         private readonly IRepository<string, User> _userRepository;
+        private readonly ITokenService _tokenService;
         private readonly ILogger<USerService> _logger;
 
         public USerService(IRepository<int,Employee> employeeRepository,
                             IRepository<string,User> userRepository,
+                            ITokenService tokenService,
                             ILogger<USerService> logger)
         {
             _employeeRepository = employeeRepository;
             _userRepository = userRepository;
+            _tokenService = tokenService;
             _logger = logger;
 
         }
@@ -37,6 +40,7 @@ namespace FirstAPI.Services
             {
                 user.Password = "";
                 user.Role= myUSer.Role;
+                user.Token = await _tokenService.GenerateToken(user);
                 return user;
             }
             throw new InvlidUuserException();
