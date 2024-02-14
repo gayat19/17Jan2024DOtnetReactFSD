@@ -1,0 +1,48 @@
+React
+HTML+CSS+jQuery+AJAX
+Angular
+Vue
+ASP MVC
+Java Spring
+python webapp
+-------------------
+
+ASP Core WebAPI
+Java SPringBoot
+python
+node
+WCF
+
+------------
+MS SQL
+Oracle
+MySQL
+Postgre
+Access
+NoSQL
+  Mongo
+------------------------------------------------
+React
+  SPA
+
+Class based arch
+Function based
+
+
+npx create-react-app <appname>
+npm start
+npm test
+
+
+
+----------------------------------------------
+Display
+Style
+Get data
+Do validations
+Receive data from end ponits
+Send data to end points
+Navigation - Menu - For loading/showing various componens
+
+
+  
