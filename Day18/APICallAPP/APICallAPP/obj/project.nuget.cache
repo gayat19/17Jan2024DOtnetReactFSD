@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KsYGfvV2UXxoI9DxP4s0e8BkSze4YdD02HtIq3am+IcvijjbJxzbjBfGxrUMaiaB1ZvNHaad19wyTovIlZHmew==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\Gynosys\\Hexaware_17Jan2024\\Participants\\Day18\\APICallAPP\\APICallAPP\\APICallAPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

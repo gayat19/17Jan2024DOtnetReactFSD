@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import First from './First';
 import Todo from './Components/Todos/Todo';
+import Weather from './Components/Weather/Weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Todo/>
+   <Weather/>
+   {/* <hr/>
+   <Todo/> */}
   </React.StrictMode>
 );
 

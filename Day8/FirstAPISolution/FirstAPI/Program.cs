@@ -67,6 +67,14 @@ namespace FirstAPI
                     };
                 });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("ReactPolicy", opts =>
+                {
+                    opts.WithOrigins("http://localhost:3000","null").AllowAnyMethod().AllowAnyHeader();
+                });
+            });
+
             #region contexts
             builder.Services.AddDbContext<RequestTarkerContext>(opts =>
             {
@@ -98,6 +106,8 @@ namespace FirstAPI
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors("ReactPolicy");
 
             app.UseAuthentication();
             app.UseAuthorization();

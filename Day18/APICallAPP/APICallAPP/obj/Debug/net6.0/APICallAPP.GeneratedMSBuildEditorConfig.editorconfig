@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = APICallAPP
+build_property.RootNamespace = APICallAPP
+build_property.ProjectDir = D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day18\APICallAPP\APICallAPP\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day18\APICallAPP\APICallAPP
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Weather/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/d drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day18/APICallAPP/APICallAPP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-znr2g57ota

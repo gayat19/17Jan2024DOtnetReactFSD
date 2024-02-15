@@ -1,0 +1,30 @@
+﻿@model IEnumerable<APICallAPP.Models.WeatherForecast>
+<h1>
+    Weather data
+</h1>
+@* @for(int i = 0; i < 10; i++)
+{
+    <li>@i</li>  
+} *@
+
+@foreach (var item in Model)
+{
+    <div>
+        @item.Date
+        <br />
+        @item.TemperatureC
+        <br />
+        @item.Summary
+      
+    </div>
+    <hr />
+}
+
+<h2>@ViewBag.Username</h2>
+<h2>@ViewData["UserAge"]</h2>
+
+<div>
+    @ViewBag.Weather.Date
+    <br/>
+    @ViewBag.Weather.Summary
+</div>
