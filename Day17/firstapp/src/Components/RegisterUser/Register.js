@@ -24,6 +24,16 @@ function Register(){
         employee.phone = phone;
         employee.departmentId = departmentId;
         console.log(employee);
+        var requestOptions = {
+            method :'POST',
+            headers: {'Content-Type':'application/json'},
+            body : JSON.stringify(employee)
+        }
+        console.log(requestOptions);
+        fetch("http://localhost:5090/api/User",requestOptions)
+        .then(res=>res.json())
+        .then(res=>console.log(res))
+        .catch(err=>console.log(err));
     };
 
     var getDepartments =  ()=>{
@@ -67,6 +77,7 @@ function Register(){
             <button onClick={getDepartments} className="btn btn-primary">Get Departments</button>
             <label className="form-control">Department</label>
             <select className="form-control" onChange={(e)=>setDepartmentId(e.target.value)}>
+                <option value="0">--Select a Departmnet--</option>
                 {departments.map((department)=>
                 <option key={department.deparmentNumber} value={department.deparmentNumber}>{department.name}</option>)}
             </select>
