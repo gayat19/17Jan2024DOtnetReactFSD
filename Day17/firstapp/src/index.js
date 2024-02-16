@@ -10,9 +10,7 @@ import Weather from './Components/Weather/Weather';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Weather/>
-   {/* <hr/>
-   <Todo/> */}
+    <App/>
   </React.StrictMode>
 );
 

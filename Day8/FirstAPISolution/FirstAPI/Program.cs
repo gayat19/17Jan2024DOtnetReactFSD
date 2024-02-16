@@ -86,6 +86,7 @@ namespace FirstAPI
             builder.Services.AddScoped<IRepository<int,Employee>,EmployeeRepository>();
             builder.Services.AddScoped<IRepository<int,Request>,RequestRepository>();
             builder.Services.AddScoped<IRepository<string, User>, UserRepository>();
+            builder.Services.AddScoped<IRepository<int, Departmnet>, DepartmentRepository>();
             #endregion
 
 
@@ -95,6 +96,7 @@ namespace FirstAPI
             builder.Services.AddScoped<IRequestEmployeeService, RequestEmployeeService>();
             builder.Services.AddScoped<IUserService,USerService >();
             builder.Services.AddScoped<ITokenService,TokenService>();
+            builder.Services.AddScoped<IDepartmentService, DepartmnetService>();
             #endregion
 
 
