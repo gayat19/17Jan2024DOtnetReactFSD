@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Login.css';
+import { Outlet } from 'react-router-dom';
 
 function Login(){
     var [username,setUsername]=useState("");
@@ -50,6 +51,7 @@ function Login(){
             <button className="btn btn-danger">Cancel</button>
         </form>
     </div>
+    <Outlet/>
     </div>);
 }
 
