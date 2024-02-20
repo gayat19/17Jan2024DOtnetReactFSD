@@ -9,17 +9,20 @@
   import Error from './Components/Error/Error';
   import { BrowserRouter, Route, Routes } from 'react-router-dom';
   import PrivateRoute from './Components/PrivateRoutes/PrivateRoute';
+  import Welcome from './Components/Welcome/Welcome';
+import Home from './Components/Home/Home';
 
   function App() {
     return (
       <BrowserRouter>
       <Routes>
           <Route path="/" element={<Menu/>}>
-              <Route index element={<First/>}/>
+              <Route index element={<Home/>}/>
               <Route path='login' element={<Login/>}/>
               <Route path='todo' element={<Todo/>}/>
               <Route element={<PrivateRoute/>}>
                   <Route path='weather' element={<Weather/>}/>
+                    <Route path='welcome/:un' element={<Welcome/>}/>
               </Route>
               <Route path='*' element={<Error/>}/>
           </Route>

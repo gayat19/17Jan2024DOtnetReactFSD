@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './Login.css';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 function Login(){
     var [username,setUsername]=useState("");
     var [password,setPassword] = useState("");
     var [loggedin,setLoggedin] = useState(false);
+    var navigate = useNavigate();
     var user={};
     var login =(e)=>{
         e.preventDefault();
@@ -18,7 +19,6 @@ function Login(){
             headers: {'Content-Type':'application/json'},
             body : JSON.stringify(user)
         }
-       
         console.log(requestOptions);
         fetch("http://localhost:5090/api/User/Login",requestOptions)
         .then(res=>res.json())
@@ -26,6 +26,7 @@ function Login(){
             sessionStorage.setItem("token",res.token);
             sessionStorage.setItem("username",res.username);
             alert("Login success - "+res.username);
+            navigate('/welcome/'+res.username);
             setLoggedin(true);
         })
         .catch(err=>{
