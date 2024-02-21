@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useSyncExternalStore } from 'react';
 import './Login.css';
 import { Outlet, useNavigate } from 'react-router-dom';
 
@@ -8,6 +8,7 @@ function Login(){
     var [loggedin,setLoggedin] = useState(false);
     var navigate = useNavigate();
     var user={};
+    var [unErr,setUnErr] = useState();
     var login =(e)=>{
         e.preventDefault();
         user.username = username;
@@ -42,8 +43,9 @@ function Login(){
         
         <form>
             <label className="form-control">Username</label>
-            <input placeholder='username' className="form-control" type="text" value={username} 
+            <input  required placeholder='username' className="form-control" type="text" value={username} 
             onChange={(e)=>setUsername(e.target.value)}/>
+            {!username?<span className='alert alert-danger'>unErr</span>:null}
             <br/>
             <label className="form-control">Password</label>
             <input className="form-control" type="password" value={password} 

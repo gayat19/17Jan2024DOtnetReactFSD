@@ -11,7 +11,7 @@ export default function Cart(props){
         <div>
             <h2>Cart</h2>
             {cart.length}
-            {(cart.length ==0)?<div>Cart is empty</div>:<div>
+            {(cart.length ==0)?<div style={{backgroundColor:"aqua"}}>Cart is empty</div>:<div>
                 {
                     cart.map(c=><div key={c.id}>
                         {c.name}

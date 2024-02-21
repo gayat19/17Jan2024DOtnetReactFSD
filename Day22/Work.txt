@@ -1,0 +1,17 @@
+Virtual DOM - Diffing Algorithm
+
+Componenet's Life Cycle - mounting-updating-unmounting
+
+
+Hooks
+useState
+useEffect
+useSelect
+
+
+Redux
+
+
+
+HOC - function that takes component as argument and renders it - reusability
+

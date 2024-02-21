@@ -6,7 +6,7 @@ function Product(props){
     var addItemToCart=()=>{
         console.log("Button Clicked "+props.product.id);
         dispatch(addToCart(
-            {id:props.product.id,name:props.product.name}
+            {id:props.product.id,name:props.product.name}//Will go in to the payload
             ))
         //props.onAddItemToCart(props.product);///Raising an event in the parent
     }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SingleWeather from "../SingleWeather/SingleWeather";
 
 function Weather(){
@@ -8,7 +8,20 @@ function Weather(){
         "temperatureF":0,
         "summary":""
     }]);
-
+    useEffect(()=>{
+        const token = sessionStorage.getItem('token');
+        const httpHeader = {
+            headers:{'Authorization': 'Bearer '+token}
+        }
+        console.log(httpHeader)
+        fetch("http://localhost:5090/WeatherForecast",httpHeader)
+        .then(res=>res.json())
+        .then(res=>{
+            //console.log(res);
+            setWeathers(res);
+        });
+    },[])
+   
     var callAPI = ()=>{
         const token = sessionStorage.getItem('token');
         const httpHeader = {
