@@ -1,0 +1,9 @@
+¦
+(FirstAPI.Repositories.EmployeeRepositoryobject%FirstAPI.Interfaces.IRepository<K, T>¡
+:EmployeeRepository(FirstAPI.Contexts.RequestTarkerContext)cFirstAPI.Repositories.EmployeeRepository.EmployeeRepository(FirstAPI.Contexts.RequestTarkerContext)g
+Add(FirstAPI.Models.Employee)FFirstAPI.Repositories.EmployeeRepository.Add(FirstAPI.Models.Employee)C
+Delete(int)4FirstAPI.Repositories.EmployeeRepository.Delete(int)G
+GetAsync(int)6FirstAPI.Repositories.EmployeeRepository.GetAsync(int)A
+
+GetAsync()3FirstAPI.Repositories.EmployeeRepository.GetAsync()m
+ Update(FirstAPI.Models.Employee)IFirstAPI.Repositories.EmployeeRepository.Update(FirstAPI.Models.Employee)

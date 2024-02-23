@@ -1,0 +1,27 @@
+
+]FirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException(string?, System.Exception?)‹
+€D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Exceptions\NoSuchRequestException.cs (%"0*
+0 (*
+1*Û
+1R (qÆ
+Ã
+R (q
+
+%0void"6System.Exception.Exception(string?, System.Exception?)* 
+R (q
+System.Exception*
+Y (`
+
+messagestring*0
+b (p$
+"
+innerExceptionSystem.Exception*
+2*.
+2	 (	"
+ (	
+implicit return:
+& (5
+messagestring:.
+7 (P"
+innerExceptionSystem.ExceptionB.,
+*FirstAPI.Exceptions.NoSuchRequestExceptionX

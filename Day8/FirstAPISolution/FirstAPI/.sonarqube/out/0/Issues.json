@@ -488,6 +488,48 @@
           }
         },
         {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 33,
+                  "endLine": 17,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/UserRepository.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 20,
+                  "endLine": 33,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "CS8618",
           "level": "warning",
           "message": "Non-nullable property 'Username' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
@@ -794,90 +836,6 @@
           }
         },
         {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/UserRepository.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 33,
-                  "endLine": 17,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 37,
-                  "endLine": 17,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possible null reference return.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/UserRepository.cs",
-                "region": {
-                  "startLine": 33,
-                  "startColumn": 20,
-                  "endLine": 33,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Dereference of a possibly null reference.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 13,
-                  "endLine": 28,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CS8601",
           "level": "warning",
           "message": "Possible null reference assignment.",
@@ -983,18 +941,39 @@
           }
         },
         {
-          "ruleId": "CS8603",
+          "ruleId": "CS1998",
           "level": "warning",
-          "message": "Possible null reference return.",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/EmployeeService.cs",
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/DepartmentRepository.cs",
                 "region": {
                   "startLine": 30,
-                  "startColumn": 20,
+                  "startColumn": 45,
                   "endLine": 30,
-                  "endColumn": 24
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 37,
+                  "endLine": 17,
+                  "endColumn": 40
                 }
               }
             }
@@ -1012,9 +991,9 @@
               "resultFile": {
                 "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/EmployeeService.cs",
                 "region": {
-                  "startLine": 42,
+                  "startLine": 30,
                   "startColumn": 20,
-                  "endLine": 42,
+                  "endLine": 30,
                   "endColumn": 24
                 }
               }
@@ -1046,18 +1025,18 @@
           }
         },
         {
-          "ruleId": "CS1998",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "message": "Dereference of a possibly null reference.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
                 "region": {
-                  "startLine": 41,
-                  "startColumn": 43,
-                  "endLine": 41,
-                  "endColumn": 51
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 21
                 }
               }
             }
@@ -1079,6 +1058,48 @@
                   "startColumn": 35,
                   "endLine": 20,
                   "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/EmployeeService.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 20,
+                  "endLine": 42,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 43,
+                  "endLine": 41,
+                  "endColumn": 51
                 }
               }
             }
@@ -1193,6 +1214,27 @@
           }
         },
         {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/appsettings.json",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 34,
+                  "endLine": 9,
+                  "endColumn": 139
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S125",
           "level": "warning",
           "message": "Remove this commented out code.",
@@ -1235,48 +1277,6 @@
           }
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'employee' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Mappers/RegisterToEmployee.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 18,
-                  "endLine": 8,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3871",
-          "level": "warning",
-          "message": "Make this exception 'public'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Exceptions/NoRequestRaisedException.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 20,
-                  "endLine": 6,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S3871",
           "level": "warning",
           "message": "Make this exception 'public'.",
@@ -1289,6 +1289,48 @@
                   "startColumn": 20,
                   "endLine": 6,
                   "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 61,
+                  "endLine": 18,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'employee' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Mappers/RegisterToEmployee.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 26
                 }
               }
             }
@@ -1319,139 +1361,6 @@
           }
         },
         {
-          "ruleId": "S3925",
-          "level": "warning",
-          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Exceptions/NoSuchEmployeeException.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 18,
-                  "endLine": 3,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Exceptions/NoSuchEmployeeException.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 12,
-                  "endLine": 3,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Exceptions/NoSuchEmployeeException.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 12,
-                  "endLine": 3,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "Add 'System.SerializableAttribute' attribute on 'NoSuchEmployeeException' because it implements 'ISerializable'.",
-              "1": "Add a 'protected' constructor 'NoSuchEmployeeException(SerializationInfo, StreamingContext)'."
-            }
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'EmployeeDepartmentDTO' to match pascal case naming rules, consider using 'EmployeeDepartmentDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/EmployeeDepartmentDTO.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 18,
-                  "endLine": 3,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'EmployeePhoneDTO' to match pascal case naming rules, consider using 'EmployeePhoneDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/EmployeePhoneDTO.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 18,
-                  "endLine": 3,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'LoginUserDTO' to match pascal case naming rules, consider using 'LoginUserDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/LoginUserDTO.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 18,
-                  "endLine": 8,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'RegisterUserDTO' to match pascal case naming rules, consider using 'RegisterUserDto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/RegisterUserDTO.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 18,
-                  "endLine": 8,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2933",
           "level": "warning",
           "message": "Make 'user' 'readonly'.",
@@ -1473,6 +1382,27 @@
           }
         },
         {
+          "ruleId": "S3871",
+          "level": "warning",
+          "message": "Make this exception 'public'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Exceptions/NoRequestRaisedException.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 20,
+                  "endLine": 6,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1118",
           "level": "warning",
           "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
@@ -1485,27 +1415,6 @@
                   "startColumn": 18,
                   "endLine": 15,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Controllers/WeatherForecastController.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 61,
-                  "endLine": 14,
-                  "endColumn": 68
                 }
               }
             }
@@ -1578,6 +1487,27 @@
           }
         },
         {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'EmployeeDepartmentDTO' to match pascal case naming rules, consider using 'EmployeeDepartmentDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/EmployeeDepartmentDTO.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1450",
           "level": "warning",
           "message": "Remove the field 'conn' and declare it as a local variable in the relevant methods.",
@@ -1590,6 +1520,48 @@
                   "startColumn": 23,
                   "endLine": 10,
                   "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'EmployeePhoneDTO' to match pascal case naming rules, consider using 'EmployeePhoneDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/EmployeePhoneDTO.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 18,
+                  "endLine": 3,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LoginUserDTO' to match pascal case naming rules, consider using 'LoginUserDto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/LoginUserDTO.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 30
                 }
               }
             }
@@ -1620,60 +1592,18 @@
           }
         },
         {
-          "ruleId": "S4487",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "message": "Rename class 'RegisterUserDTO' to match pascal case naming rules, consider using 'RegisterUserDto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/RequestEmployeeService.cs",
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Models/DTOs/RegisterUserDTO.cs",
                 "region": {
-                  "startLine": 12,
-                  "startColumn": 58,
-                  "endLine": 12,
-                  "endColumn": 65
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/UserService.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 47,
-                  "endLine": 16,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1450",
-          "level": "warning",
-          "message": "Remove the field '_keyString' and declare it as a local variable in the relevant methods.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/TokenService.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 33,
-                  "endLine": 12,
-                  "endColumn": 43
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 33
                 }
               }
             }
@@ -1725,6 +1655,69 @@
           }
         },
         {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/RequestEmployeeService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 58,
+                  "endLine": 12,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field '_keyString' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/TokenService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 33,
+                  "endLine": 12,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/UserService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 47,
+                  "endLine": 16,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2696",
           "level": "warning",
           "message": "Make the enclosing instance method 'static' or remove this set on the 'static' field.",
@@ -1759,27 +1752,6 @@
           }
         },
         {
-          "ruleId": "S2068",
-          "level": "warning",
-          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/OLdWays/DataAccess.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 38,
-                  "endLine": 13,
-                  "endColumn": 147
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "CA2254",
           "level": "note",
           "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogCritical(ILogger, string?, params object?[])'",
@@ -1792,6 +1764,27 @@
                   "startColumn": 37,
                   "endLine": 40,
                   "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/OLdWays/DataAccess.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 38,
+                  "endLine": 13,
+                  "endColumn": 147
                 }
               }
             }
@@ -1822,18 +1815,18 @@
           }
         },
         {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'_context' is null on at least one execution path.",
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ComparePasswords' does not access instance data and can be marked as static",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/UserService.cs",
                 "region": {
-                  "startLine": 28,
-                  "startColumn": 13,
-                  "endLine": 28,
-                  "endColumn": 21
+                  "startLine": 49,
+                  "startColumn": 22,
+                  "endLine": 49,
+                  "endColumn": 38
                 }
               }
             }
@@ -1864,18 +1857,39 @@
           }
         },
         {
-          "ruleId": "CA1822",
-          "level": "note",
-          "message": "Member 'ComparePasswords' does not access instance data and can be marked as static",
+          "ruleId": "S2259",
+          "level": "warning",
+          "message": "'_context' is null on at least one execution path.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Services/UserService.cs",
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
                 "region": {
-                  "startLine": 49,
-                  "startColumn": 22,
-                  "endLine": 49,
-                  "endColumn": 38
+                  "startLine": 28,
+                  "startColumn": 13,
+                  "endLine": 28,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6602",
+          "level": "warning",
+          "message": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Data/d%20drive/Corp/Gynosys/Hexaware_17Jan2024/Participants/Day8/FirstAPISolution/FirstAPI/Repositories/EmployeeRepository.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 38,
+                  "endLine": 35,
+                  "endColumn": 52
                 }
               }
             }
@@ -2142,7 +2156,7 @@
         "S101": {
           "id": "S101",
           "shortDescription": "Types should be named in PascalCase",
-          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
           "properties": {
@@ -2150,16 +2164,16 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S1118": {
           "id": "S1118",
           "shortDescription": "Utility classes should not have public constructors",
-          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
           "properties": {
@@ -2167,16 +2181,16 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S1155": {
           "id": "S1155",
           "shortDescription": "\"Any()\" should be used to test for emptiness",
-          "fullDescription": "Using .Count() to test for emptiness works, but using .Any() makes the intent clearer, and the code more readable. However, there are some cases where special attention should be paid:",
+          "fullDescription": "When you call Any(), it clearly communicates the code’s intention, which is to check if the collection is empty. Using Count() == 0 for this purpose is less direct and makes the code slightly more complex. However, there are some cases where special attention should be paid:",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1155",
           "properties": {
@@ -2184,16 +2198,16 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S125": {
           "id": "S125",
           "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
@@ -2201,9 +2215,9 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
@@ -2218,15 +2232,15 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S1481": {
           "id": "S1481",
           "shortDescription": "Unused local variables should be removed",
-          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
           "properties": {
@@ -2234,16 +2248,16 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S1854": {
           "id": "S1854",
           "shortDescription": "Unused assignments should be removed",
-          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it’s not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+          "fullDescription": "Dead stores refer to assignments made to local variables that are subsequently never used or immediately overwritten. Such assignments are unnecessary and don’t contribute to the functionality or clarity of the code. They may even negatively impact performance. Removing them enhances code cleanliness and readability. Even if the unnecessary operations do not do any harm in terms of the program’s correctness, they are - at best - a waste of computing resources.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
           "properties": {
@@ -2251,9 +2265,9 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
@@ -2268,16 +2282,15 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "NotConfigurable"
+              "SonarWay"
             ]
           }
         },
         "S2259": {
           "id": "S2259",
           "shortDescription": "Null pointers should not be dereferenced",
-          "fullDescription": "A reference to null should never be dereferenced/accessed. Doing so will cause a NullReferenceException to be thrown. At best, such an exception will cause abrupt program termination. At worst, it could expose debugging information that would be useful to an attacker, or it could allow an attacker to bypass security measures.",
+          "fullDescription": "Accessing a null value will always throw a NullReferenceException most likely causing an abrupt program termination.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
           "properties": {
@@ -2285,15 +2298,15 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S2696": {
           "id": "S2696",
           "shortDescription": "Instance members should not write to \"static\" fields",
-          "fullDescription": "Correctly updating a static field from a non-static method is tricky to get right and could easily lead to bugs if there are multiple class instances and/or multiple threads in play.",
+          "fullDescription": "This rule raises an issue each time a static field is updated from a non-static method or property.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2696",
           "properties": {
@@ -2301,8 +2314,8 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "SonarWay"
             ]
           }
         },
@@ -2317,9 +2330,9 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
@@ -2334,25 +2347,9 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S3925": {
-          "id": "S3925",
-          "shortDescription": "\"ISerializable\" should be implemented correctly",
-          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard to detect bugs.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
@@ -2367,27 +2364,43 @@
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
-              "TestSourceScope"
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         },
         "S4487": {
           "id": "S4487",
           "shortDescription": "Unread \"private\" fields should be removed",
-          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
-          "defaultLevel": "note",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
           "properties": {
             "category": "Critical Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
-              "SonarWay",
               "MainSourceScope",
               "TestSourceScope",
-              "Unnecessary"
+              "SonarWay"
+            ]
+          }
+        },
+        "S6602": {
+          "id": "S6602",
+          "shortDescription": "\"Find\" method should be used instead of the \"FirstOrDefault\" extension",
+          "fullDescription": "Both the List.Find method and IEnumerable.FirstOrDefault method can be used to find the first element that satisfies a given condition in a collection. However, List.Find can be faster than IEnumerable.FirstOrDefault for List objects. For small collections, the performance difference may be minor, but for large collections, it can make a noticeable difference. The same applies for ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6602",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
             ]
           }
         }

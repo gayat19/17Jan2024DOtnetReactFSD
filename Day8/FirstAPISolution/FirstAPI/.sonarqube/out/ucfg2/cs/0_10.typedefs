@@ -1,0 +1,12 @@
+ß
+&FirstAPI.Contexts.RequestTarkerContext'Microsoft.EntityFrameworkCore.DbContextobject³
+DRequestTarkerContext(Microsoft.EntityFrameworkCore.DbContextOptions)kFirstAPI.Contexts.RequestTarkerContext.RequestTarkerContext(Microsoft.EntityFrameworkCore.DbContextOptions)¡
+;OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)bFirstAPI.Contexts.RequestTarkerContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)E
+Employees.get4FirstAPI.Contexts.RequestTarkerContext.Employees.getE
+Employees.set4FirstAPI.Contexts.RequestTarkerContext.Employees.setI
+Departments.get6FirstAPI.Contexts.RequestTarkerContext.Departments.getI
+Departments.set6FirstAPI.Contexts.RequestTarkerContext.Departments.set=
+	Users.get0FirstAPI.Contexts.RequestTarkerContext.Users.get=
+	Users.set0FirstAPI.Contexts.RequestTarkerContext.Users.setC
+Requests.get3FirstAPI.Contexts.RequestTarkerContext.Requests.getC
+Requests.set3FirstAPI.Contexts.RequestTarkerContext.Requests.set

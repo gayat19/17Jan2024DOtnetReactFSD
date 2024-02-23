@@ -1,0 +1,79 @@
+
+:FirstAPI.Models.Employee.Equals(FirstAPI.Models.Employee?)x
+nD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Models\Employee.cs2 2("0*
+02 2(*
+1*w
+14 4( `
+^
+4 4( %
+	%capture0FirstAPI.Models.Employee"__id*%#
+!
+otherFirstAPI.Models.Employee*
+2
+3*x
+24 4( d
+b
+4 4( %
+	%capture1FirstAPI.Models.Employee"__id*)'
+%
+	%capture0FirstAPI.Models.Employee*
+4*º
+34# 4(1FD
+4# 4(1
+%0FirstAPI.Models.Employee"FirstAPI.Models.Employee
+}
+4# 4(1
+%1FirstAPI.Models.Employee"#FirstAPI.Models.Employee.Employee()*,
+4# 4(1 
+
+%0FirstAPI.Models.Employee]
+[
+4# 4(1%
+	%capture1FirstAPI.Models.Employee"__id*" 
+
+%0FirstAPI.Models.Employee*
+4*w
+44 4(1c
+a
+4 4(1$
+employeeFirstAPI.Models.Employee"__id*)'
+%
+	%capture1FirstAPI.Models.Employee*
+5*ý
+55 5(.b
+`
+5 5(	
+%2int"FirstAPI.Models.Employee.Id.get*(
+5 5(
+FirstAPI.Models.Employeel
+j
+5" 5(-	
+%3int"FirstAPI.Models.Employee.Id.get*2
+5" 5(*&
+$
+employeeFirstAPI.Models.Employee[
+Y
+5 5(.
+
+%4bool"int.Equals(int)*
+5 5(
+	
+%2int*
+5" 5(-
+	
+%3int:
+8
+5 5(.
+%retbool"__id*
+5 5(.
+
+
+%4bool*
+6*)
+66	 6(	"
+6 6(	
+
+%retbool:-
+2 2(*!
+otherFirstAPI.Models.EmployeeB
+FirstAPI.Models.EmployeeX

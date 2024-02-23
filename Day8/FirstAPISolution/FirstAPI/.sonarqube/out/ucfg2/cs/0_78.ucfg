@@ -1,0 +1,131 @@
+
+\FirstAPI.Mappers.RegisterToEmployee.RegisterToEmployee(FirstAPI.Models.DTOs.RegisterUserDTO)ƒ
+yD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Mappers\RegisterToEmployee.cs	 	(!"0*
+0	 	(*
+1*¶
+1	 (2^
+\
+	 (	
+
+%0void"object.Object()*3
+	 (	'%
+#FirstAPI.Mappers.RegisterToEmployeeFD
+ (%
+%1FirstAPI.Models.Employee"FirstAPI.Models.Employee
+}
+ (%
+%2FirstAPI.Models.Employee"#FirstAPI.Models.Employee.Employee()*,
+ (% 
+
+%1FirstAPI.Models.Employee†
+ƒ
+ (%M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee"__id*" 
+
+%1FirstAPI.Models.EmployeeŠ
+‡
+ ()
+%3string"-FirstAPI.Models.DTOs.RegisterUserDTO.Name.get*>
+ ($2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO­
+ª
+ ()
+%4string"!FirstAPI.Models.Employee.Name.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%3string‹
+ˆ
+ (+
+%5string".FirstAPI.Models.DTOs.RegisterUserDTO.Email.get*>
+ (%2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO®
+«
+ (+
+%6string""FirstAPI.Models.Employee.Email.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%5string‹
+ˆ
+ (+
+%7string".FirstAPI.Models.DTOs.RegisterUserDTO.Phone.get*>
+ (%2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO®
+«
+ (+
+%8string""FirstAPI.Models.Employee.Phone.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%7stringš
+—
+# (7
+%9System.DateTime"4FirstAPI.Models.DTOs.RegisterUserDTO.DateOfBirth.get*>
+# (+2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTOÇ
+Ä
+ (7
+%10System.DateTime"(FirstAPI.Models.Employee.DateOfBirth.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%9System.DateTimeŠ
+‡
+ ((
+%11string",FirstAPI.Models.DTOs.RegisterUserDTO.Pic.get*>
+ ($2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO®
+«
+ ((
+%12string" FirstAPI.Models.Employee.Pic.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%11string‘
+Ž
+$ (9
+%13int?"5FirstAPI.Models.DTOs.RegisterUserDTO.DepartmentId.get*>
+$ (,2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO³
+°
+ (9
+%14int?")FirstAPI.Models.Employee.DepartmentId.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%13int?
+Œ
+  (1
+%15string"1FirstAPI.Models.DTOs.RegisterUserDTO.Username.get*>
+  ((2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO³
+°
+ (1
+%16string"%FirstAPI.Models.Employee.Username.set*[
+ (O*M%
+#FirstAPI.Mappers.RegisterToEmployee"$
+employeeFirstAPI.Models.Employee*
+
+%15string*
+2*.
+2	 (	"
+ (	
+implicit return:<
+	" 	(:0
+register$FirstAPI.Models.DTOs.RegisterUserDTOB'%
+#FirstAPI.Mappers.RegisterToEmployeeX

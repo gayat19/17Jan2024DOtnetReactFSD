@@ -1,0 +1,4 @@
+µ
+.FirstAPI.Controllers.WeatherForecastController'Microsoft.AspNetCore.Mvc.ControllerBaseobject’
+oWeatherForecastController(Microsoft.Extensions.Logging.ILogger<FirstAPI.Controllers.WeatherForecastController>)žFirstAPI.Controllers.WeatherForecastController.WeatherForecastController(Microsoft.Extensions.Logging.ILogger<FirstAPI.Controllers.WeatherForecastController>)=
+Get()4FirstAPI.Controllers.WeatherForecastController.Get()

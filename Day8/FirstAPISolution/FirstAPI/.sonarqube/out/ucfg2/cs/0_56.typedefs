@@ -1,0 +1,7 @@
+é
+(FirstAPI.Services.RequestEmployeeServiceobject+FirstAPI.Interfaces.IRequestEmployeeServiceù
+åRequestEmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Request>, FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.RequestEmployeeService>)ŽFirstAPI.Services.RequestEmployeeService.RequestEmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Request>, FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.RequestEmployeeService>)y
+&CreateRequest(FirstAPI.Models.Request)OFirstAPI.Services.RequestEmployeeService.CreateRequest(FirstAPI.Models.Request)Q
+DeleteRequest(int);FirstAPI.Services.RequestEmployeeService.DeleteRequest(int)e
+GetAllResuestByEmployee(int)EFirstAPI.Services.RequestEmployeeService.GetAllResuestByEmployee(int)W
+GetRequestStatus(int)>FirstAPI.Services.RequestEmployeeService.GetRequestStatus(int)

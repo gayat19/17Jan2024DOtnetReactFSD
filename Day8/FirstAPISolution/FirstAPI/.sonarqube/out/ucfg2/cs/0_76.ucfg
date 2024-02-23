@@ -1,0 +1,27 @@
+
+ FirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)‹
+€D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Exceptions\NoSuchRequestException.cs (("0*
+0 (*
+1*Ù
+1[ (pÄ
+Á
+[ (p
+
+%0void"ySystem.Exception.Exception(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)* 
+[ (p
+System.Exception*D
+b (f8
+6
+info.System.Runtime.Serialization.SerializationInfo*F
+h (o:
+8
+context-System.Runtime.Serialization.StreamingContext*
+2*.
+2	 (	"
+ (	
+implicit return:B
+) (?6
+info.System.Runtime.Serialization.SerializationInfo:D
+A (Y8
+context-System.Runtime.Serialization.StreamingContextB.,
+*FirstAPI.Exceptions.NoSuchRequestExceptionX

@@ -1,0 +1,83 @@
+
+SFirstAPI.Models.Employee.Employee(string, string, string, string?, System.DateTime)x
+nD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Models\Employee.cs) )("0*¸
+0) )(‰
+†
+) (7
+%0string"!FirstAPI.Models.Employee.Name.set*(
+) (7
+FirstAPI.Models.Employee**
+string"
+EmptystringŠ
+‡
+* (8
+%1string""FirstAPI.Models.Employee.Email.set*(
+* (8
+FirstAPI.Models.Employee**
+string"
+EmptystringŠ
+‡
+* (8
+%2string""FirstAPI.Models.Employee.Phone.set*(
+* (8
+FirstAPI.Models.Employee**
+string"
+Emptystring*
+1*ü
+1) /(&S
+Q
+) 0(	
+
+%3void"object.Object()*(
+) 0(	
+FirstAPI.Models.Employee{
+y
++ +(
+%4string"!FirstAPI.Models.Employee.Name.set*(
++ +(
+FirstAPI.Models.Employee*
+
+namestring}
+{
+, ,(
+%5string""FirstAPI.Models.Employee.Email.set*(
+, ,(
+FirstAPI.Models.Employee*
+
+emailstring}
+{
+- -(
+%6string""FirstAPI.Models.Employee.Phone.set*(
+- -(
+FirstAPI.Models.Employee*
+
+phonestringy
+w
+. .(
+%7string" FirstAPI.Models.Employee.Pic.set*(
+. .(
+FirstAPI.Models.Employee*
+
+picstringœ
+™
+/ /(%
+%8System.DateTime"(FirstAPI.Models.Employee.DateOfBirth.set*(
+/ /(
+FirstAPI.Models.Employee*" 
+
+dateOfBirthSystem.DateTime*
+2*.
+20	 0(	"
+0 0(	
+implicit return:
+) )(#
+namestring:
+)% )(1
+emailstring:
+)3 )(?
+phonestring:
+)A )(L
+picstring:*
+)N )(b
+dateOfBirthSystem.DateTimeB
+FirstAPI.Models.EmployeeX

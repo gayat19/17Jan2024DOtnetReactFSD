@@ -1,0 +1,11 @@
+§
+FirstAPI.WeatherForecastobject?
+WeatherForecast()*FirstAPI.WeatherForecast.WeatherForecast()-
+Date.get!FirstAPI.WeatherForecast.Date.get-
+Date.set!FirstAPI.WeatherForecast.Date.set=
+TemperatureC.get)FirstAPI.WeatherForecast.TemperatureC.get=
+TemperatureC.set)FirstAPI.WeatherForecast.TemperatureC.set=
+TemperatureF.get)FirstAPI.WeatherForecast.TemperatureF.get=
+TemperatureF.set)FirstAPI.WeatherForecast.TemperatureF.set3
+Summary.get$FirstAPI.WeatherForecast.Summary.get3
+Summary.set$FirstAPI.WeatherForecast.Summary.set

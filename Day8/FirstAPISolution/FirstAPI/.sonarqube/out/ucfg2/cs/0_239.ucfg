@@ -1,0 +1,40 @@
+
+OFirstAPI.Services.RequestEmployeeService.CreateRequest(FirstAPI.Models.Request)à
+~D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\RequestEmployeeService.cs# (0"0*
+0 (*
+1*î
+1 (
+}
+ (&
+%0string""FirstAPI.Models.Request.Status.set*0
+ ($
+"
+requestFirstAPI.Models.Request*	
+Createdìê
+  (8*
+%1$System.Threading.Tasks.Task<TResult>",FirstAPI.Interfaces.IRepository<K, T>.Add(T)*p
+  (+d*b*
+(FirstAPI.Services.RequestEmployeeService"4
+_repository%FirstAPI.Interfaces.IRepository<K, T>*0
+0 (7$
+"
+requestFirstAPI.Models.Request2Add(T)e
+c
+ (8!
+resultFirstAPI.Models.Request"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>Å
+
+ (<
+%ret4System.Threading.Tasks.Task<FirstAPI.Models.Request>"__id*/
+ (#
+!
+resultFirstAPI.Models.Request*
+2*Y
+2	 (	"J
+ (	>
+<
+%ret4System.Threading.Tasks.Task<FirstAPI.Models.Request>:.
+1 (@"
+requestFirstAPI.Models.RequestB,*
+(FirstAPI.Services.RequestEmployeeService

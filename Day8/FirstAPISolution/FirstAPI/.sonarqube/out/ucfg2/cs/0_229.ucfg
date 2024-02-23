@@ -1,0 +1,66 @@
+
+4FirstAPI.Repositories.EmployeeRepository.Delete(int)ˆ
+~D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Repositories\EmployeeRepository.cs$ (*"0*
+0 (*
+1*Ä
+1 (.Å
+Â
+! (.*
+%0$System.Threading.Tasks.Task<TResult>"6FirstAPI.Repositories.EmployeeRepository.GetAsync(int)*8
+! (),*
+(FirstAPI.Repositories.EmployeeRepository*
+* (-
+
+
+keyinth
+f
+ (.$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%0$System.Threading.Tasks.Task<TResult>*
+2*Æ
+2 (®
+«
+ (3
+	%capture0&FirstAPI.Contexts.RequestTarkerContext"__id*db*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext*
+3
+4*í
+3 (1º
+·
+ (2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"4FirstAPI.Contexts.RequestTarkerContext.Employees.get*A
+ (5
+3
+	%capture0&FirstAPI.Contexts.RequestTarkerContext›˜
+ (0G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"<Microsoft.EntityFrameworkCore.DbSet<TEntity>.Remove(TEntity)*@
+ (4
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*2
+' (/&
+$
+employeeFirstAPI.Models.Employee2Remove(TEntity)*
+4*ì
+4 (ÎË
+ ("	
+%3int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*n
+ (b*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext2SaveChanges()†
+ƒ
+ (=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+ (&
+$
+employeeFirstAPI.Models.Employee*
+5*Z
+5	 (	"K
+ (	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:
++ (2
+
+keyintB,*
+(FirstAPI.Repositories.EmployeeRepository

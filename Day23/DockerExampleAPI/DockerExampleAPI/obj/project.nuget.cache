@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1QaIZBLOic6jShHcf6NlOG8r9Y199Q74/bTr/Aii8FYtGe3XIJbdK3MPNyPcY+WRT5jpMVQnfgdpuBhcjVl7Lw==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\Gynosys\\Hexaware_17Jan2024\\Participants\\Day23\\DockerExampleAPI\\DockerExampleAPI\\DockerExampleAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

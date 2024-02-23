@@ -1,0 +1,43 @@
+
+ŽFirstAPI.Services.RequestEmployeeService.RequestEmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Request>, FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.RequestEmployeeService>)ˆ
+~D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\RequestEmployeeService.cs (%"0*
+0 (*
+1*´
+1 (c
+a
+ (	
+
+%0void"object.Object()*8
+ (	,*
+(FirstAPI.Services.RequestEmployeeService°
+­
+ ($b*
+(FirstAPI.Services.RequestEmployeeService"4
+_repository%FirstAPI.Interfaces.IRepository<K, T>"__id*75
+3
+
+repository%FirstAPI.Interfaces.IRepository<K, T>À
+½
+ (4j*
+(FirstAPI.Services.RequestEmployeeService"<
+_employeeRepository%FirstAPI.Interfaces.IRepository<K, T>"__id*?=
+;
+employeeRepository%FirstAPI.Interfaces.IRepository<K, T>Ä
+Á
+ (l*
+(FirstAPI.Services.RequestEmployeeService">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+2*.
+2	 (	"
+ (	
+implicit return:?
+ (;3
+
+repository%FirstAPI.Interfaces.IRepository<K, T>:G
+ (E;
+employeeRepository%FirstAPI.Interfaces.IRepository<K, T>:I
+ (>=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B,*
+(FirstAPI.Services.RequestEmployeeServiceX

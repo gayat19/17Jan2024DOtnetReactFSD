@@ -1,0 +1,7 @@
+ò
+FirstAPI.Services.USerServiceobject FirstAPI.Interfaces.IUserServiceà
+ÚUSerService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, FirstAPI.Interfaces.IRepository<string, FirstAPI.Models.User>, FirstAPI.Interfaces.ITokenService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.USerService>)êFirstAPI.Services.USerService.USerService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, FirstAPI.Interfaces.IRepository<string, FirstAPI.Models.User>, FirstAPI.Interfaces.ITokenService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.USerService>)r
+(Login(FirstAPI.Models.DTOs.LoginUserDTO)FFirstAPI.Services.USerService.Login(FirstAPI.Models.DTOs.LoginUserDTO)b
+ ComparePasswords(byte[], byte[])>FirstAPI.Services.USerService.ComparePasswords(byte[], byte[])j
+$GetPasswordEncrypted(string, byte[])BFirstAPI.Services.USerService.GetPasswordEncrypted(string, byte[])~
+.Register(FirstAPI.Models.DTOs.RegisterUserDTO)LFirstAPI.Services.USerService.Register(FirstAPI.Models.DTOs.RegisterUserDTO)

@@ -1,0 +1,9 @@
+À
+*FirstAPI.Repositories.DepartmentRepositoryobject%FirstAPI.Interfaces.IRepository<K, T>§
+<DepartmentRepository(FirstAPI.Contexts.RequestTarkerContext)gFirstAPI.Repositories.DepartmentRepository.DepartmentRepository(FirstAPI.Contexts.RequestTarkerContext)m
+Add(FirstAPI.Models.Departmnet)JFirstAPI.Repositories.DepartmentRepository.Add(FirstAPI.Models.Departmnet)E
+Delete(int)6FirstAPI.Repositories.DepartmentRepository.Delete(int)I
+GetAsync(int)8FirstAPI.Repositories.DepartmentRepository.GetAsync(int)C
+
+GetAsync()5FirstAPI.Repositories.DepartmentRepository.GetAsync()s
+"Update(FirstAPI.Models.Departmnet)MFirstAPI.Repositories.DepartmentRepository.Update(FirstAPI.Models.Departmnet)

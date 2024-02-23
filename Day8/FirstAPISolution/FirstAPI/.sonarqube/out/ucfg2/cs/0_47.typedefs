@@ -1,0 +1,8 @@
+“
+!FirstAPI.Services.EmployeeServiceobject)FirstAPI.Interfaces.IEmployeeAdminServiceÄ
+OEmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>)qFirstAPI.Services.EmployeeService.EmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>)p
+%AddEmployee(FirstAPI.Models.Employee)GFirstAPI.Services.EmployeeService.AddEmployee(FirstAPI.Models.Employee)t
+'ChangeEmployeeDepartmnetAsync(int, int)IFirstAPI.Services.EmployeeService.ChangeEmployeeDepartmnetAsync(int, int)p
+%ChangeEmployeePhoneAsync(int, string)GFirstAPI.Services.EmployeeService.ChangeEmployeePhoneAsync(int, string)F
+GetEmployee(int)2FirstAPI.Services.EmployeeService.GetEmployee(int)R
+GetEmployeeListAsync()8FirstAPI.Services.EmployeeService.GetEmployeeListAsync()

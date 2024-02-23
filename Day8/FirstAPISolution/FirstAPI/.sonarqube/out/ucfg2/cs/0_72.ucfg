@@ -1,0 +1,77 @@
+
+TFirstAPI.Mappers.RegisterToUser.RegisterToUser(FirstAPI.Models.DTOs.RegisterUserDTO)
+uD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Mappers\RegisterToUser.cs ("0*
+0 (*
+1*§
+
+1 (+Z
+X
+ (	
+
+%0void"object.Object()*/
+ (	#!
+FirstAPI.Mappers.RegisterToUser><
+ (
+%1FirstAPI.Models.User"FirstAPI.Models.Usero
+m
+ (
+%2FirstAPI.Models.User"FirstAPI.Models.User.User()*(
+ (
+
+%1FirstAPI.Models.Useru
+s
+ (A!
+FirstAPI.Mappers.RegisterToUser"
+userFirstAPI.Models.User"__id*
+
+%1FirstAPI.Models.UserŽ
+‹
+ (-
+%3string"1FirstAPI.Models.DTOs.RegisterUserDTO.Username.get*>
+ ($2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO¡
+ž
+ (-
+%4string"!FirstAPI.Models.User.Username.set*O
+ (C*A!
+FirstAPI.Mappers.RegisterToUser"
+userFirstAPI.Models.User*
+
+%3stringŠ
+‡
+ (%
+%5string"-FirstAPI.Models.DTOs.RegisterUserDTO.Role.get*>
+ ( 2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO
+š
+ (%
+%6string"FirstAPI.Models.User.Role.set*O
+ (C*A!
+FirstAPI.Mappers.RegisterToUser"
+userFirstAPI.Models.User*
+
+%5stringŽ
+‹
+ ()
+%7string"1FirstAPI.Models.DTOs.RegisterUserDTO.Password.get*>
+ ( 2
+0
+register$FirstAPI.Models.DTOs.RegisterUserDTO›
+˜
+ (*
+
+%8void"3FirstAPI.Mappers.RegisterToUser.GetPassword(string)*/
+ (#!
+FirstAPI.Mappers.RegisterToUser*
+ ()
+
+%7string*
+2*.
+2	 (	"
+ (	
+implicit return:<
+ (60
+register$FirstAPI.Models.DTOs.RegisterUserDTOB#!
+FirstAPI.Mappers.RegisterToUserX

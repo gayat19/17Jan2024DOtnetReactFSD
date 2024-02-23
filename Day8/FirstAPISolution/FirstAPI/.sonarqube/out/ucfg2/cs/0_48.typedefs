@@ -1,0 +1,9 @@
+¹
+'FirstAPI.Repositories.RequestRepositoryobject%FirstAPI.Interfaces.IRepository<K, T>¾
+ˆRequestRepository(FirstAPI.Contexts.RequestTarkerContext, Microsoft.Extensions.Logging.ILogger<FirstAPI.Repositories.RequestRepository>)°FirstAPI.Repositories.RequestRepository.RequestRepository(FirstAPI.Contexts.RequestTarkerContext, Microsoft.Extensions.Logging.ILogger<FirstAPI.Repositories.RequestRepository>)d
+Add(FirstAPI.Models.Request)DFirstAPI.Repositories.RequestRepository.Add(FirstAPI.Models.Request)B
+Delete(int)3FirstAPI.Repositories.RequestRepository.Delete(int)F
+GetAsync(int)5FirstAPI.Repositories.RequestRepository.GetAsync(int)@
+
+GetAsync()2FirstAPI.Repositories.RequestRepository.GetAsync()j
+Update(FirstAPI.Models.Request)GFirstAPI.Repositories.RequestRepository.Update(FirstAPI.Models.Request)

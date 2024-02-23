@@ -1,0 +1,11 @@
+Ó
+!FirstAPI.Models.DTOs.LoginUserDTOobjectB
+LoginUserDTO()0FirstAPI.Models.DTOs.LoginUserDTO.LoginUserDTO()>
+Username.get.FirstAPI.Models.DTOs.LoginUserDTO.Username.get>
+Username.set.FirstAPI.Models.DTOs.LoginUserDTO.Username.set>
+Password.get.FirstAPI.Models.DTOs.LoginUserDTO.Password.get>
+Password.set.FirstAPI.Models.DTOs.LoginUserDTO.Password.set6
+Role.get*FirstAPI.Models.DTOs.LoginUserDTO.Role.get6
+Role.set*FirstAPI.Models.DTOs.LoginUserDTO.Role.set8
+	Token.get+FirstAPI.Models.DTOs.LoginUserDTO.Token.get8
+	Token.set+FirstAPI.Models.DTOs.LoginUserDTO.Token.set

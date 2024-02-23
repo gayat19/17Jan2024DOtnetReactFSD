@@ -1,0 +1,89 @@
+
+ZFirstAPI.Controllers.EmployeeController.UpdatePhone(FirstAPI.Models.DTOs.EmployeePhoneDTO)‡
+}D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\EmployeeController.cs8$ 8(/"0*ä
+06 6(n
+l
+8$ 8(/R
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO"
+<Id>k__BackingFieldint"__entrypoint]
+[
+8$ 8(/A
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO"	
+Idint"__entrypointt
+r
+8$ 8(/X
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO" 
+<Phone>k__BackingFieldstring"__entrypointc
+a
+8$ 8(/G
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO"
+Phonestring"__entrypointŸ
+œ
+6	 6(*
+%0"
+__annotate*DB@
+>Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute(string)*86
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO
+š
+7	 7(
+%1"
+__annotate*B@>
+<Microsoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute()*86
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTOd
+b
+80 8(L4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO"__annotation*
+
+%0*
+
+%1*
+1*…
+1: ;(Š
+‡
+:H :(V	
+%2int",FirstAPI.Models.DTOs.EmployeePhoneDTO.Id.get*B
+:H :(S6
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTO
+
+:X :(i
+%3string"/FirstAPI.Models.DTOs.EmployeePhoneDTO.Phone.get*B
+:X :(c6
+4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTOÝÚ
+:! :(j*
+%4$System.Threading.Tasks.Task<TResult>"OFirstAPI.Interfaces.IEmployeeAdminService.ChangeEmployeePhoneAsync(int, string)*u
+:! :(.i*g)
+'FirstAPI.Controllers.EmployeeController":
+_adminService)FirstAPI.Interfaces.IEmployeeAdminService*
+:H :(V
+	
+%2int*
+:X :(i
+
+%3string2%ChangeEmployeePhoneAsync(int, string)h
+f
+: :(j$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%4$System.Threading.Tasks.Task<TResult>†
+ƒ
+; ;(=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+; ;(&
+$
+employeeFirstAPI.Models.Employee*
+2*Z
+2<	 <(	"K
+< <(	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:@
+80 8(L4
+employeeDto%FirstAPI.Models.DTOs.EmployeePhoneDTOB+)
+'FirstAPI.Controllers.EmployeeController

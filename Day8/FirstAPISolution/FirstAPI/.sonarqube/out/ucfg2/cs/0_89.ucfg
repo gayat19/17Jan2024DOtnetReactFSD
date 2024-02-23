@@ -1,0 +1,42 @@
+
+2FirstAPI.Controllers.SampleController.Post(string)…
+{D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\SampleController.cs ("0*‡
+0 (9
+7
+ (
+%0"__entrypoint*
+
+	givenNamestring}
+{
+	 (
+%1"
+__annotate*DB@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+	givenNamestring9
+7
+ (+
+	givenNamestring"__annotation*
+
+%1*
+1*´
+1 (f
+d
+ (9'
+%FirstAPI.Controllers.SampleController"
+Namestring"__id*
+
+	givenNamestring8
+6
+ (
+%retstring"__id*
+ (
+Okay*
+2*+
+2	 (	"
+ (	
+
+%retstring:
+ (+
+	givenNamestringB)'
+%FirstAPI.Controllers.SampleController

@@ -1,0 +1,140 @@
+
+LFirstAPI.Services.USerService.Register(FirstAPI.Models.DTOs.RegisterUserDTO)}
+sD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\UserService.csB( B(0"0*
+0B B(*
+1*ö
+1D G(?TR
+D D(2%
+%0FirstAPI.Mappers.RegisterToUser"FirstAPI.Mappers.RegisterToUser˚
+¯
+D D(2%
+%1FirstAPI.Mappers.RegisterToUser"TFirstAPI.Mappers.RegisterToUser.RegisterToUser(FirstAPI.Models.DTOs.RegisterUserDTO)*3
+D D(2'
+%
+%0FirstAPI.Mappers.RegisterToUser*:
+D- D(1.
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTOâ
+Ü
+D D(<
+%2FirstAPI.Models.User")FirstAPI.Mappers.RegisterToUser.GetUser()*3
+D D(2'
+%
+%0FirstAPI.Mappers.RegisterToUserR
+P
+D D(<
+myuserFirstAPI.Models.User"__id*
+
+%2FirstAPI.Models.UseràÖ
+E E(6*
+%3$System.Threading.Tasks.Task<TResult>",FirstAPI.Interfaces.IRepository<K, T>.Add(T)*i
+E E(*]*[
+FirstAPI.Services.USerService"8
+_userRepository%FirstAPI.Interfaces.IRepository<K, T>*,
+E/ E(5 
+
+myuserFirstAPI.Models.User2Add(T)b
+`
+E E(6
+myuserFirstAPI.Models.User"__id*.,
+*
+%3$System.Threading.Tasks.Task<TResult>\Z
+F  F(<)
+%4#FirstAPI.Mappers.RegisterToEmployee"#FirstAPI.Mappers.RegisterToEmployeeã
+à
+F  F(<)
+%5#FirstAPI.Mappers.RegisterToEmployee"\FirstAPI.Mappers.RegisterToEmployee.RegisterToEmployee(FirstAPI.Models.DTOs.RegisterUserDTO)*7
+F  F(<+
+)
+%4#FirstAPI.Mappers.RegisterToEmployee*:
+F7 F(;.
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTOô
+ñ
+F  F(J
+%6FirstAPI.Models.Employee"1FirstAPI.Mappers.RegisterToEmployee.GetEmployee()*7
+F  F(<+
+)
+%4#FirstAPI.Mappers.RegisterToEmployee\
+Z
+F F(J$
+employeeFirstAPI.Models.Employee"__id*" 
+
+%6FirstAPI.Models.Employeeíè
+G G(>*
+%7$System.Threading.Tasks.Task<TResult>",FirstAPI.Interfaces.IRepository<K, T>.Add(T)*m
+G G(0a*_
+FirstAPI.Services.USerService"<
+_employeeRepository%FirstAPI.Interfaces.IRepository<K, T>*2
+G5 G(=&
+$
+employeeFirstAPI.Models.Employee2Add(T)h
+f
+G G(>$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%7$System.Threading.Tasks.Task<TResult>*
+2*à
+2H K("XV
+H" L('
+%8!FirstAPI.Models.DTOs.LoginUserDTO"!FirstAPI.Models.DTOs.LoginUserDTOü
+ú
+H" L('
+%9!FirstAPI.Models.DTOs.LoginUserDTO"0FirstAPI.Models.DTOs.LoginUserDTO.LoginUserDTO()*5
+H" L()
+'
+%8!FirstAPI.Models.DTOs.LoginUserDTOo
+m
+H" L(.
+	%capture0!FirstAPI.Models.DTOs.LoginUserDTO"__id*+)
+'
+%8!FirstAPI.Models.DTOs.LoginUserDTOl
+j
+J J(*
+%10string"!FirstAPI.Models.User.Username.get*,
+J J(! 
+
+myuserFirstAPI.Models.Userù
+ö
+J J(*
+%11string".FirstAPI.Models.DTOs.LoginUserDTO.Username.set*<
+H" L(0
+.
+	%capture0!FirstAPI.Models.DTOs.LoginUserDTO*
+
+%10stringh
+f
+K K("
+%12string"FirstAPI.Models.User.Role.get*,
+K K( 
+
+myuserFirstAPI.Models.Userô
+ñ
+K K("
+%13string"*FirstAPI.Models.DTOs.LoginUserDTO.Role.set*<
+H" L(0
+.
+	%capture0!FirstAPI.Models.DTOs.LoginUserDTO*
+
+%12strings
+q
+H L(+
+result!FirstAPI.Models.DTOs.LoginUserDTO"__id*20
+.
+	%capture0!FirstAPI.Models.DTOs.LoginUserDTO*
+3*´
+3M M(ñ
+ì
+M M(F
+%ret>System.Threading.Tasks.Task<FirstAPI.Models.DTOs.LoginUserDTO>"__id*9
+M M(-
++
+result!FirstAPI.Models.DTOs.LoginUserDTO*
+4*c
+4O	 O(	"T
+O O(	H
+F
+%ret>System.Threading.Tasks.Task<FirstAPI.Models.DTOs.LoginUserDTO>:8
+B1 B(E,
+user$FirstAPI.Models.DTOs.RegisterUserDTOB!
+FirstAPI.Services.USerService

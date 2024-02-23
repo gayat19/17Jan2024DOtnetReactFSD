@@ -1,0 +1,33 @@
+
+ŸFirstAPI.Controllers.UserController.UserController(FirstAPI.Interfaces.IUserService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Controllers.UserController>)ƒ
+yD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\UserController.cs ("0*
+0 (*
+1*‰
+1 (Œ
+‰
+ (	
+
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*7
+ (	+)
+'Microsoft.AspNetCore.Mvc.ControllerBase£
+ 
+ (&Y%
+#FirstAPI.Controllers.UserController"0
+_userService FirstAPI.Interfaces.IUserService"__id*31
+/
+userService FirstAPI.Interfaces.IUserService¿
+¼
+ (g%
+#FirstAPI.Controllers.UserController">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+2*.
+2	 (	"
+ (	
+implicit return:;
+ (6/
+userService FirstAPI.Interfaces.IUserService:I
+7 (U=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B'%
+#FirstAPI.Controllers.UserControllerX

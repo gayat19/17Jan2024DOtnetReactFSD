@@ -1,0 +1,49 @@
+
+êFirstAPI.Services.USerService.USerService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>, FirstAPI.Interfaces.IRepository<string, FirstAPI.Models.User>, FirstAPI.Interfaces.ITokenService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Services.USerService>)}
+sD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\UserService.cs ("0*
+0 (*
+1*¥
+1 (X
+V
+ (	
+
+%0void"object.Object()*-
+ (	!
+FirstAPI.Services.USerServiceµ
+≤
+ (4_
+FirstAPI.Services.USerService"<
+_employeeRepository%FirstAPI.Interfaces.IRepository<K, T>"__id*?=
+;
+employeeRepository%FirstAPI.Interfaces.IRepository<K, T>≠
+™
+ (,[
+FirstAPI.Services.USerService"8
+_userRepository%FirstAPI.Interfaces.IRepository<K, T>"__id*;9
+7
+userRepository%FirstAPI.Interfaces.IRepository<K, T>°
+û
+ ((U
+FirstAPI.Services.USerService"2
+_tokenService!FirstAPI.Interfaces.ITokenService"__id*53
+1
+tokenService!FirstAPI.Interfaces.ITokenServiceπ
+∂
+ (a
+FirstAPI.Services.USerService">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+2*.
+2	 (	"
+ (	
+implicit return:G
+ (G;
+employeeRepository%FirstAPI.Interfaces.IRepository<K, T>:C
+ (C7
+userRepository%FirstAPI.Interfaces.IRepository<K, T>:=
+ (61
+tokenService!FirstAPI.Interfaces.ITokenService:I
+ (7=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B!
+FirstAPI.Services.USerServiceX

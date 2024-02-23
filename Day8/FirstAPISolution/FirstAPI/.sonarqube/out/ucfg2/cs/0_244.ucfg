@@ -1,0 +1,58 @@
+
+IFirstAPI.Repositories.EmployeeRepository.Update(FirstAPI.Models.Employee)à
+~D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Repositories\EmployeeRepository.cs/$ /(*"0*
+0/ /(*
+1*ƒ
+
+11 7(h
+f
+1* 1(1	
+%0int"FirstAPI.Models.Employee.Id.get*.
+1* 1(."
+ 
+itemFirstAPI.Models.Employeeƒ
+¡
+1! 1(2*
+%1$System.Threading.Tasks.Task<TResult>"6FirstAPI.Repositories.EmployeeRepository.GetAsync(int)*8
+1! 1(),*
+(FirstAPI.Repositories.EmployeeRepository*
+1* 1(1
+	
+%0inth
+f
+1 1(2$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>–Õ
+2 2(*G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"?Microsoft.EntityFrameworkCore.DbContext.Entry<TEntity>(TEntity)*n
+2 2(b*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext*.
+2% 2()"
+ 
+itemFirstAPI.Models.Employee2Entry<TEntity>(TEntity)ÏÈ
+2 2(G/
+%3)Microsoft.EntityFrameworkCore.EntityState"BMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State.set*U
+2 2(*I
+G
+%2AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>*22	State.setŒÀ
+6 6("	
+%4int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*n
+6 6(b*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext2SaveChanges()Å
+
+7 7(=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*.
+7 7("
+ 
+itemFirstAPI.Models.Employee*
+2*Z
+28	 8(	"K
+8 8(	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:,
+/+ /(8 
+itemFirstAPI.Models.EmployeeB,*
+(FirstAPI.Repositories.EmployeeRepository

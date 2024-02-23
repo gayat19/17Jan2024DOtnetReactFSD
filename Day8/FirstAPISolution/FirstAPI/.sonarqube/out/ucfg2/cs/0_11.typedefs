@@ -1,0 +1,5 @@
+ù
+#FirstAPI.Controllers.UserController'Microsoft.AspNetCore.Mvc.ControllerBaseobjectŸ
+{UserController(FirstAPI.Interfaces.IUserService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Controllers.UserController>)ŸFirstAPI.Controllers.UserController.UserController(FirstAPI.Interfaces.IUserService, Microsoft.Extensions.Logging.ILogger<FirstAPI.Controllers.UserController>)„
+.Register(FirstAPI.Models.DTOs.RegisterUserDTO)RFirstAPI.Controllers.UserController.Register(FirstAPI.Models.DTOs.RegisterUserDTO)x
+(Login(FirstAPI.Models.DTOs.LoginUserDTO)LFirstAPI.Controllers.UserController.Login(FirstAPI.Models.DTOs.LoginUserDTO)

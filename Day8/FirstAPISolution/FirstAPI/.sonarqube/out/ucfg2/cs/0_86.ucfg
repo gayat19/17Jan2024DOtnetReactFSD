@@ -1,0 +1,27 @@
+
+§FirstAPI.Exceptions.NoRequestRaisedException.NoRequestRaisedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ç
+ÇD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Exceptions\NoRequestRaisedException.cs (*"0*
+0 (*
+1*Ÿ
+1] (rƒ
+¡
+] (r
+
+%0void"ySystem.Exception.Exception(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)* 
+] (r
+System.Exception*D
+d (h8
+6
+info.System.Runtime.Serialization.SerializationInfo*F
+j (q:
+8
+context-System.Runtime.Serialization.StreamingContext*
+2*.
+2	 (	"
+ (	
+implicit return:B
++ (A6
+info.System.Runtime.Serialization.SerializationInfo:D
+C ([8
+context-System.Runtime.Serialization.StreamingContextB0.
+,FirstAPI.Exceptions.NoRequestRaisedExceptionX

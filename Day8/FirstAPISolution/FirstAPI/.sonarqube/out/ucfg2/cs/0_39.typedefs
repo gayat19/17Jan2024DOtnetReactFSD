@@ -1,0 +1,6 @@
+â
+ FirstAPI.Migrations.RequestBasic2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectü
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)^FirstAPI.Migrations.RequestBasic.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)£
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)`FirstAPI.Migrations.RequestBasic.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)ù
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)]FirstAPI.Migrations.RequestBasic.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)A
+RequestBasic()/FirstAPI.Migrations.RequestBasic.RequestBasic()

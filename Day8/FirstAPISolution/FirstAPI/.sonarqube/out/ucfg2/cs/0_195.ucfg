@@ -1,0 +1,24 @@
+
+8FirstAPI.Services.DepartmnetService.GettAllDepartments()ƒ
+yD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\DepartmnetService.cs, (>"0*
+0 (*
+1*«
+1 (/äá
+ (/*
+%0$System.Threading.Tasks.Task<TResult>"0FirstAPI.Interfaces.IRepository<K, T>.GetAsync()*k
+ ($_*]%
+#FirstAPI.Services.DepartmnetService"4
+_repository%FirstAPI.Interfaces.IRepository<K, T>2
+GetAsync()¯
+¬
+ (/`
+%retXSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Departmnet>>"__id*8
+ (/,
+*
+%0$System.Threading.Tasks.Task<TResult>*
+2*}
+2	 (	"n
+ (	b
+`
+%retXSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Departmnet>>B'%
+#FirstAPI.Services.DepartmnetService

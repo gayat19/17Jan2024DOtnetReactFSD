@@ -1,0 +1,7 @@
+ë
+%FirstAPI.Models.DTOs.EmployeePhoneDTOobjectN
+EmployeePhoneDTO()8FirstAPI.Models.DTOs.EmployeePhoneDTO.EmployeePhoneDTO()6
+Id.get,FirstAPI.Models.DTOs.EmployeePhoneDTO.Id.get6
+Id.set,FirstAPI.Models.DTOs.EmployeePhoneDTO.Id.set<
+	Phone.get/FirstAPI.Models.DTOs.EmployeePhoneDTO.Phone.get<
+	Phone.set/FirstAPI.Models.DTOs.EmployeePhoneDTO.Phone.set

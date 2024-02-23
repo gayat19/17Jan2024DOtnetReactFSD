@@ -1,0 +1,31 @@
+
+6FirstAPI.Controllers.EmployeeController.GetEmployees()‡
+}D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\EmployeeController.cs* (6"0*4
+0 ( 
+
+* (6
+%0"__entrypoint*
+1*É
+1 (Š‡
+" (F*
+%1$System.Threading.Tasks.Task<TResult>"@FirstAPI.Interfaces.IEmployeeAdminService.GetEmployeeListAsync()*u
+" (/i*g)
+'FirstAPI.Controllers.EmployeeController":
+_adminService)FirstAPI.Interfaces.IEmployeeAdminService2GetEmployeeListAsync()s
+q
+ (F/
+	employees"System.Collections.Generic.List<T>"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>²
+¯
+ (^
+%retVSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Employee>>"__id*=
+ (1
+/
+	employees"System.Collections.Generic.List<T>*
+2*{
+2	 (	"l
+ (	`
+^
+%retVSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Employee>>B+)
+'FirstAPI.Controllers.EmployeeController

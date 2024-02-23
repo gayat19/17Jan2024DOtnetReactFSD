@@ -1,0 +1,31 @@
+ž
+FirstAPI.Models.EmployeeobjectSystem.IEquatable<T>1
+
+Employee()#FirstAPI.Models.Employee.Employee()›
+?Employee(int, string, string, string, string?, System.DateTime)XFirstAPI.Models.Employee.Employee(int, string, string, string, string?, System.DateTime)‘
+:Employee(string, string, string, string?, System.DateTime)SFirstAPI.Models.Employee.Employee(string, string, string, string?, System.DateTime)_
+!Equals(FirstAPI.Models.Employee?):FirstAPI.Models.Employee.Equals(FirstAPI.Models.Employee?))
+Id.getFirstAPI.Models.Employee.Id.get)
+Id.setFirstAPI.Models.Employee.Id.set-
+Name.get!FirstAPI.Models.Employee.Name.get-
+Name.set!FirstAPI.Models.Employee.Name.set/
+	Email.get"FirstAPI.Models.Employee.Email.get/
+	Email.set"FirstAPI.Models.Employee.Email.set/
+	Phone.get"FirstAPI.Models.Employee.Phone.get/
+	Phone.set"FirstAPI.Models.Employee.Phone.set+
+Pic.get FirstAPI.Models.Employee.Pic.get+
+Pic.set FirstAPI.Models.Employee.Pic.set;
+DateOfBirth.get(FirstAPI.Models.Employee.DateOfBirth.get;
+DateOfBirth.set(FirstAPI.Models.Employee.DateOfBirth.set5
+Username.get%FirstAPI.Models.Employee.Username.get5
+Username.set%FirstAPI.Models.Employee.Username.set=
+DepartmentId.get)FirstAPI.Models.Employee.DepartmentId.get=
+DepartmentId.set)FirstAPI.Models.Employee.DepartmentId.set9
+Department.get'FirstAPI.Models.Employee.Department.get9
+Department.set'FirstAPI.Models.Employee.Department.set-
+User.get!FirstAPI.Models.Employee.User.get-
+User.set!FirstAPI.Models.Employee.User.setA
+RaisedRequests.get+FirstAPI.Models.Employee.RaisedRequests.getA
+RaisedRequests.set+FirstAPI.Models.Employee.RaisedRequests.setE
+ResolvedRequests.get-FirstAPI.Models.Employee.ResolvedRequests.getE
+ResolvedRequests.set-FirstAPI.Models.Employee.ResolvedRequests.set

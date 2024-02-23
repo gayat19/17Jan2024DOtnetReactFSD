@@ -1,0 +1,80 @@
+
+dFirstAPI.Controllers.EmployeeController.UpdateDepartment(FirstAPI.Models.DTOs.EmployeeDepartmentDTO)‡
+}D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\EmployeeController.cs1$ 1(4"0*Þ
+00 0(s
+q
+1$ 1(4W
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO"
+<Id>k__BackingFieldint"__entrypointb
+`
+1$ 1(4F
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO"	
+Idint"__entrypoint}
+{
+1$ 1(4a
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO"$
+<DepartmentId>k__BackingFieldint"__entrypointl
+j
+1$ 1(4P
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO"
+DepartmentIdint"__entrypoint¢
+Ÿ
+0	 0(
+%0"
+__annotate*B@>
+<Microsoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute()*=;
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO_
+]
+15 1(V9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTO"__annotation*
+
+%0*
+1*ž
+13 4(”
+‘
+3M 3([	
+%1int"1FirstAPI.Models.DTOs.EmployeeDepartmentDTO.Id.get*G
+3M 3(X;
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTOž
+›
+3] 3(u	
+%2int";FirstAPI.Models.DTOs.EmployeeDepartmentDTO.DepartmentId.get*G
+3] 3(h;
+9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTOÞÛ
+3! 3(v*
+%3$System.Threading.Tasks.Task<TResult>"QFirstAPI.Interfaces.IEmployeeAdminService.ChangeEmployeeDepartmnetAsync(int, int)*u
+3! 3(.i*g)
+'FirstAPI.Controllers.EmployeeController":
+_adminService)FirstAPI.Interfaces.IEmployeeAdminService*
+3M 3([
+	
+%1int*
+3] 3(u
+	
+%2int2'ChangeEmployeeDepartmnetAsync(int, int)h
+f
+3 3(v$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%3$System.Threading.Tasks.Task<TResult>†
+ƒ
+4 4(=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+4 4(&
+$
+employeeFirstAPI.Models.Employee*
+2*Z
+25	 5(	"K
+5 5(	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:E
+15 1(V9
+employeeDto*FirstAPI.Models.DTOs.EmployeeDepartmentDTOB+)
+'FirstAPI.Controllers.EmployeeController

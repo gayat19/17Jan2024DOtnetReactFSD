@@ -1,0 +1,166 @@
+
+FFirstAPI.Controllers.EmployeeController.Post(FirstAPI.Models.Employee)á
+}D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\EmployeeController.cs+$ +(("0*’
+0) )(^
+\
++$ +((B
+$
+employeeFirstAPI.Models.Employee"
+<Id>k__BackingFieldint"__entrypointM
+K
++$ +((1
+$
+employeeFirstAPI.Models.Employee"	
+Idint"__entrypointc
+a
++$ +((G
+$
+employeeFirstAPI.Models.Employee"
+<Name>k__BackingFieldstring"__entrypointR
+P
++$ +((6
+$
+employeeFirstAPI.Models.Employee"
+Namestring"__entrypointd
+b
++$ +((H
+$
+employeeFirstAPI.Models.Employee" 
+<Email>k__BackingFieldstring"__entrypointS
+Q
++$ +((7
+$
+employeeFirstAPI.Models.Employee"
+Emailstring"__entrypointd
+b
++$ +((H
+$
+employeeFirstAPI.Models.Employee" 
+<Phone>k__BackingFieldstring"__entrypointS
+Q
++$ +((7
+$
+employeeFirstAPI.Models.Employee"
+Phonestring"__entrypointb
+`
++$ +((F
+$
+employeeFirstAPI.Models.Employee"
+<Pic>k__BackingFieldstring"__entrypointQ
+O
++$ +((5
+$
+employeeFirstAPI.Models.Employee"
+Picstring"__entrypoints
+q
++$ +((W
+$
+employeeFirstAPI.Models.Employee"/
+<DateOfBirth>k__BackingFieldSystem.DateTime"__entrypointb
+`
++$ +((F
+$
+employeeFirstAPI.Models.Employee"
+DateOfBirthSystem.DateTime"__entrypointg
+e
++$ +((K
+$
+employeeFirstAPI.Models.Employee"#
+<Username>k__BackingFieldstring"__entrypointV
+T
++$ +((:
+$
+employeeFirstAPI.Models.Employee"
+Usernamestring"__entrypointi
+g
++$ +((M
+$
+employeeFirstAPI.Models.Employee"%
+<DepartmentId>k__BackingFieldint?"__entrypointX
+V
++$ +((<
+$
+employeeFirstAPI.Models.Employee"
+DepartmentIdint?"__entrypoint}
+{
++$ +((a
+$
+employeeFirstAPI.Models.Employee"9
+<Department>k__BackingFieldFirstAPI.Models.Departmnet"__entrypointl
+j
++$ +((P
+$
+employeeFirstAPI.Models.Employee"(
+
+DepartmentFirstAPI.Models.Departmnet"__entrypointq
+o
++$ +((U
+$
+employeeFirstAPI.Models.Employee"-
+<User>k__BackingFieldFirstAPI.Models.User"__entrypoint`
+^
++$ +((D
+$
+employeeFirstAPI.Models.Employee"
+UserFirstAPI.Models.User"__entrypointë
+é
++$ +((t
+$
+employeeFirstAPI.Models.Employee"L
+<RaisedRequests>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypoint
+}
++$ +((c
+$
+employeeFirstAPI.Models.Employee";
+RaisedRequests)System.Collections.Generic.ICollection<T>"__entrypointì
+ê
++$ +((v
+$
+employeeFirstAPI.Models.Employee"N
+!<ResolvedRequests>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointÅ
+
++$ +((e
+$
+employeeFirstAPI.Models.Employee"=
+ResolvedRequests)System.Collections.Generic.ICollection<T>"__entrypointè
+å
+)	 )(
+%0"
+__annotate*DB@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
+$
+employeeFirstAPI.Models.EmployeeJ
+H
++) +(:$
+employeeFirstAPI.Models.Employee"__annotation*
+
+%0*
+1*‰
+1- .(‹Ÿ
+- -(@*
+%1$System.Threading.Tasks.Task<TResult>"OFirstAPI.Interfaces.IEmployeeAdminService.AddEmployee(FirstAPI.Models.Employee)*u
+- -(*i*g)
+'FirstAPI.Controllers.EmployeeController":
+_adminService)FirstAPI.Interfaces.IEmployeeAdminService*2
+-7 -(?&
+$
+employeeFirstAPI.Models.Employee2%AddEmployee(FirstAPI.Models.Employee)h
+f
+- -(@$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>Ü
+É
+. .(=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+. .(&
+$
+employeeFirstAPI.Models.Employee*
+2*Z
+2/	 /(	"K
+/ /(	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:0
++) +(:$
+employeeFirstAPI.Models.EmployeeB+)
+'FirstAPI.Controllers.EmployeeController

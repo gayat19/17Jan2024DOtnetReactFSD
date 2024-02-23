@@ -1,0 +1,31 @@
+
+6FirstAPI.Models.DTOs.RegisterUserDTO.RegisterUserDTO()„
+zD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Models\DTOs\RegisterUserDTO.cs ( "0*Õ
+0¡
+ž
+) (7
+%0string"-FirstAPI.Models.DTOs.RegisterUserDTO.Name.set*4
+) (7(&
+$FirstAPI.Models.DTOs.RegisterUserDTO**
+string"
+Emptystring¢
+Ÿ
+* (8
+%1string".FirstAPI.Models.DTOs.RegisterUserDTO.Email.set*4
+* (8(&
+$FirstAPI.Models.DTOs.RegisterUserDTO**
+string"
+Emptystring¢
+Ÿ
+* (8
+%2string".FirstAPI.Models.DTOs.RegisterUserDTO.Phone.set*4
+* (8(&
+$FirstAPI.Models.DTOs.RegisterUserDTO**
+string"
+EmptystringK
+I
+
+%3void"object.Object()**(&
+$FirstAPI.Models.DTOs.RegisterUserDTO"
+implicit returnB(&
+$FirstAPI.Models.DTOs.RegisterUserDTOX

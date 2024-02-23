@@ -1,0 +1,29 @@
+
+8FirstAPI.Services.EmployeeService.GetEmployeeListAsync()
+wD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\EmployeeService.cs3* 3(>"0*
+03 3(*
+1*›
+15 6(ÜÙ
+5" 5(2*
+%0$System.Threading.Tasks.Task<TResult>"0FirstAPI.Interfaces.IRepository<K, T>.GetAsync()*c
+5" 5('W*U#
+!FirstAPI.Services.EmployeeService".
+_repo%FirstAPI.Interfaces.IRepository<K, T>2
+GetAsync()s
+q
+5 5(2/
+	employees"System.Collections.Generic.List<T>"__id*.,
+*
+%0$System.Threading.Tasks.Task<TResult>²
+¯
+6 6(^
+%retVSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Employee>>"__id*=
+6 6(1
+/
+	employees"System.Collections.Generic.List<T>*
+2*{
+27	 7(	"l
+7 7(	`
+^
+%retVSystem.Threading.Tasks.Task<System.Collections.Generic.List<FirstAPI.Models.Employee>>B%#
+!FirstAPI.Services.EmployeeService

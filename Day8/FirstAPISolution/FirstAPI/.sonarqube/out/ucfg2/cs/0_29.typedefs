@@ -1,0 +1,4 @@
+ø
+#FirstAPI.Services.DepartmnetServiceobject&FirstAPI.Interfaces.IDepartmentServiceÎ
+SDepartmnetService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Departmnet>)wFirstAPI.Services.DepartmnetService.DepartmnetService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Departmnet>)P
+GettAllDepartments()8FirstAPI.Services.DepartmnetService.GettAllDepartments()

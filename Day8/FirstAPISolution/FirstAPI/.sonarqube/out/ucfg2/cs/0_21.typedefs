@@ -1,0 +1,6 @@
+É
+*FirstAPI.Exceptions.NoSuchRequestExceptionSystem.Exceptionobject_
+NoSuchRequestException()CFirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException()m
+NoSuchRequestException(string?)JFirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException(string?)“
+2NoSuchRequestException(string?, System.Exception?)]FirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException(string?, System.Exception?)š
+uNoSuchRequestException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext) FirstAPI.Exceptions.NoSuchRequestException.NoSuchRequestException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)

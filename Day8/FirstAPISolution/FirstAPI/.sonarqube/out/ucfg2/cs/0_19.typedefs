@@ -1,0 +1,8 @@
+Á
+'FirstAPI.Controllers.EmployeeController'Microsoft.AspNetCore.Mvc.ControllerBaseobject¦
+=EmployeeController(FirstAPI.Interfaces.IEmployeeAdminService)eFirstAPI.Controllers.EmployeeController.EmployeeController(FirstAPI.Interfaces.IEmployeeAdminService)H
+GetEmployees()6FirstAPI.Controllers.EmployeeController.GetEmployees()N
+GetEmployees(int)9FirstAPI.Controllers.EmployeeController.GetEmployees(int)h
+Post(FirstAPI.Models.Employee)FFirstAPI.Controllers.EmployeeController.Post(FirstAPI.Models.Employee)¤
+<UpdateDepartment(FirstAPI.Models.DTOs.EmployeeDepartmentDTO)dFirstAPI.Controllers.EmployeeController.UpdateDepartment(FirstAPI.Models.DTOs.EmployeeDepartmentDTO)
+2UpdatePhone(FirstAPI.Models.DTOs.EmployeePhoneDTO)ZFirstAPI.Controllers.EmployeeController.UpdatePhone(FirstAPI.Models.DTOs.EmployeePhoneDTO)

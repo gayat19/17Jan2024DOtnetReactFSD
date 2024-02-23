@@ -1,0 +1,33 @@
+
+FFirstAPI.Repositories.EmployeeRepository.Add(FirstAPI.Models.Employee)à
+~D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Repositories\EmployeeRepository.cs$ ('"0*
+0 (*
+1*∂
+1 (Ã…
+ (G
+%0AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"=Microsoft.EntityFrameworkCore.DbContext.Add<TEntity>(TEntity)*n
+ (b*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext*.
+ ("
+ 
+itemFirstAPI.Models.Employee2Add<TEntity>(TEntity)ŒÀ
+ ("	
+%1int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*n
+ (b*`*
+(FirstAPI.Repositories.EmployeeRepository"2
+_context&FirstAPI.Contexts.RequestTarkerContext2SaveChanges()Å
+
+ (=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*.
+ ("
+ 
+itemFirstAPI.Models.Employee*
+2*Z
+2	 (	"K
+ (	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:,
+( (5 
+itemFirstAPI.Models.EmployeeB,*
+(FirstAPI.Repositories.EmployeeRepository

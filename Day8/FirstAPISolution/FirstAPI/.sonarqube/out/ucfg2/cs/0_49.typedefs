@@ -1,0 +1,22 @@
+Å
+
+$FirstAPI.Models.DTOs.RegisterUserDTOobjectK
+RegisterUserDTO()6FirstAPI.Models.DTOs.RegisterUserDTO.RegisterUserDTO()A
+Username.get1FirstAPI.Models.DTOs.RegisterUserDTO.Username.getA
+Username.set1FirstAPI.Models.DTOs.RegisterUserDTO.Username.setA
+Password.get1FirstAPI.Models.DTOs.RegisterUserDTO.Password.getA
+Password.set1FirstAPI.Models.DTOs.RegisterUserDTO.Password.set9
+Role.get-FirstAPI.Models.DTOs.RegisterUserDTO.Role.get9
+Role.set-FirstAPI.Models.DTOs.RegisterUserDTO.Role.set9
+Name.get-FirstAPI.Models.DTOs.RegisterUserDTO.Name.get9
+Name.set-FirstAPI.Models.DTOs.RegisterUserDTO.Name.set;
+	Email.get.FirstAPI.Models.DTOs.RegisterUserDTO.Email.get;
+	Email.set.FirstAPI.Models.DTOs.RegisterUserDTO.Email.set;
+	Phone.get.FirstAPI.Models.DTOs.RegisterUserDTO.Phone.get;
+	Phone.set.FirstAPI.Models.DTOs.RegisterUserDTO.Phone.set7
+Pic.get,FirstAPI.Models.DTOs.RegisterUserDTO.Pic.get7
+Pic.set,FirstAPI.Models.DTOs.RegisterUserDTO.Pic.setG
+DateOfBirth.get4FirstAPI.Models.DTOs.RegisterUserDTO.DateOfBirth.getG
+DateOfBirth.set4FirstAPI.Models.DTOs.RegisterUserDTO.DateOfBirth.setI
+DepartmentId.get5FirstAPI.Models.DTOs.RegisterUserDTO.DepartmentId.getI
+DepartmentId.set5FirstAPI.Models.DTOs.RegisterUserDTO.DepartmentId.set

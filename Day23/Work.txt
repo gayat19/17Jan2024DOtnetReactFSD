@@ -1,0 +1,16 @@
+SCM - > Git/GItLab/BitBucket/SVN
+
+Build 
+Test
+Deploy
+
+
+
+CI Continious Integration
+ 
+CD - Deploymnet
+
+docker pull mysql:8.0
+
+
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=secret -v $HOME/mysql-data:/var/lib/mysql -d mysql:8.0

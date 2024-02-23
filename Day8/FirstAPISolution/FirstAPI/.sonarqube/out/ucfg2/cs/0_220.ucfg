@@ -1,0 +1,34 @@
+
+qFirstAPI.Services.EmployeeService.EmployeeService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Employee>)Å
+wD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\EmployeeService.cs
+ 
+("0*
+0
+ 
+(*
+1*ê
+1
+ (\
+Z
+
+ (	
+
+%0void"object.Object()*1
+
+ (	%#
+!FirstAPI.Services.EmployeeServiceù
+ö
+ (U#
+!FirstAPI.Services.EmployeeService".
+_repo%FirstAPI.Interfaces.IRepository<K, T>"__id*1/
+-
+repo%FirstAPI.Interfaces.IRepository<K, T>*
+2*.
+2	 (	"
+ (	
+implicit return:9
+
+ 
+(>-
+repo%FirstAPI.Interfaces.IRepository<K, T>B%#
+!FirstAPI.Services.EmployeeServiceX

@@ -1,0 +1,59 @@
+
+9FirstAPI.Controllers.EmployeeController.GetEmployees(int)‡
+}D:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\EmployeeController.cs"$ "(0"0*ø
+0   (/
+-
+"$ "(0
+%0"__entrypoint*
+	
+idint
+}
+ 	  (#
+%1"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*
+	
+idintw
+u
+!	 !(
+%2"
+__annotate*HFD
+BMicrosoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string)*
+	
+idint9
+7
+"1 "(7	
+idint"__annotation*
+
+%1*
+
+%2*
+1*ž
+1$ %(–“
+$! $(>*
+%3$System.Threading.Tasks.Task<TResult>"9FirstAPI.Interfaces.IEmployeeUserService.GetEmployee(int)*u
+$! $(.i*g)
+'FirstAPI.Controllers.EmployeeController":
+_adminService)FirstAPI.Interfaces.IEmployeeAdminService*
+$; $(=
+	
+idint2GetEmployee(int)h
+f
+$ $(>$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%3$System.Threading.Tasks.Task<TResult>†
+ƒ
+% %(=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+% %(&
+$
+employeeFirstAPI.Models.Employee*
+2*Z
+2&	 &(	"K
+& &(	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:
+"1 "(7	
+idintB+)
+'FirstAPI.Controllers.EmployeeController

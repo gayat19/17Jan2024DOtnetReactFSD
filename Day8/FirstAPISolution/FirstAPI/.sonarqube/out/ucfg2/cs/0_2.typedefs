@@ -1,0 +1,4 @@
+Õ
+)FirstAPI.Controllers.DepartmentController'Microsoft.AspNetCore.Mvc.ControllerBaseobject¦
+<DepartmentController(FirstAPI.Interfaces.IDepartmentService)fFirstAPI.Controllers.DepartmentController.DepartmentController(FirstAPI.Interfaces.IDepartmentService)N
+GetDepartments():FirstAPI.Controllers.DepartmentController.GetDepartments()

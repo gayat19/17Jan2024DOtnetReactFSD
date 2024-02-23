@@ -1,0 +1,33 @@
+
+GFirstAPI.Services.EmployeeService.AddEmployee(FirstAPI.Models.Employee)Å
+wD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\EmployeeService.cs$ (/"0*
+0 (*
+1*ê
+1 (àÖ
+ (0*
+%0$System.Threading.Tasks.Task<TResult>",FirstAPI.Interfaces.IRepository<K, T>.Add(T)*c
+ ("W*U#
+!FirstAPI.Services.EmployeeService".
+_repo%FirstAPI.Interfaces.IRepository<K, T>*2
+' (/&
+$
+employeeFirstAPI.Models.Employee2Add(T)h
+f
+ (0$
+employeeFirstAPI.Models.Employee"__id*.,
+*
+%0$System.Threading.Tasks.Task<TResult>Ü
+É
+ (=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>"__id*2
+ (&
+$
+employeeFirstAPI.Models.Employee*
+2*Z
+2	 (	"K
+ (	?
+=
+%ret5System.Threading.Tasks.Task<FirstAPI.Models.Employee>:0
+0 (A$
+employeeFirstAPI.Models.EmployeeB%#
+!FirstAPI.Services.EmployeeService

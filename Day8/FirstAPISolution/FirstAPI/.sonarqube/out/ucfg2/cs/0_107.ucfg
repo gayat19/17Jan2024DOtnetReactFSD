@@ -1,0 +1,135 @@
+
+RFirstAPI.Controllers.UserController.Register(FirstAPI.Models.DTOs.RegisterUserDTO)ƒ
+yD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Controllers\UserController.cs( (0"0*Ï
+0 (o
+m
+( (0S
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"#
+<Username>k__BackingFieldstring"__entrypoint^
+\
+( (0B
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Usernamestring"__entrypointo
+m
+( (0S
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"#
+<Password>k__BackingFieldstring"__entrypoint^
+\
+( (0B
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Passwordstring"__entrypointk
+i
+( (0O
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+<Role>k__BackingFieldstring"__entrypointZ
+X
+( (0>
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Rolestring"__entrypointk
+i
+( (0O
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+<Name>k__BackingFieldstring"__entrypointZ
+X
+( (0>
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Namestring"__entrypointl
+j
+( (0P
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO" 
+<Email>k__BackingFieldstring"__entrypoint[
+Y
+( (0?
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Emailstring"__entrypointl
+j
+( (0P
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO" 
+<Phone>k__BackingFieldstring"__entrypoint[
+Y
+( (0?
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Phonestring"__entrypointj
+h
+( (0N
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+<Pic>k__BackingFieldstring"__entrypointY
+W
+( (0=
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+Picstring"__entrypoint{
+y
+( (0_
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"/
+<DateOfBirth>k__BackingFieldSystem.DateTime"__entrypointj
+h
+( (0N
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+DateOfBirthSystem.DateTime"__entrypointq
+o
+( (0U
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"%
+<DepartmentId>k__BackingFieldint?"__entrypoint`
+^
+( (0D
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"
+DepartmentIdint?"__entrypoint—
+”
+	 (
+%0"
+__annotate*DB@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*0.
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTOR
+P
+1 (E,
+user$FirstAPI.Models.DTOs.RegisterUserDTO"__annotation*
+
+%0*
+1*þ
+1 (ßÜ
+ (:*
+%1$System.Threading.Tasks.Task<TResult>"OFirstAPI.Interfaces.IUserService.Register(FirstAPI.Models.DTOs.RegisterUserDTO)*g
+ (+[*Y%
+#FirstAPI.Controllers.UserController"0
+_userService FirstAPI.Interfaces.IUserService*:
+5 (9.
+,
+user$FirstAPI.Models.DTOs.RegisterUserDTO2.Register(FirstAPI.Models.DTOs.RegisterUserDTO)o
+m
+ (:+
+result!FirstAPI.Models.DTOs.LoginUserDTO"__id*.,
+*
+%1$System.Threading.Tasks.Task<TResult>–
+“
+ (F
+%ret>System.Threading.Tasks.Task<FirstAPI.Models.DTOs.LoginUserDTO>"__id*9
+ (-
++
+result!FirstAPI.Models.DTOs.LoginUserDTO*
+2*c
+2	 (	"T
+ (	H
+F
+%ret>System.Threading.Tasks.Task<FirstAPI.Models.DTOs.LoginUserDTO>:8
+1 (E,
+user$FirstAPI.Models.DTOs.RegisterUserDTOB'%
+#FirstAPI.Controllers.UserController

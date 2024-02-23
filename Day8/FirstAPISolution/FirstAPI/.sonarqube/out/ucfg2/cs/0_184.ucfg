@@ -1,0 +1,36 @@
+
+wFirstAPI.Services.DepartmnetService.DepartmnetService(FirstAPI.Interfaces.IRepository<int, FirstAPI.Models.Departmnet>)ƒ
+yD:\Data\d drive\Corp\Gynosys\Hexaware_17Jan2024\Participants\Day8\FirstAPISolution\FirstAPI\Services\DepartmnetService.cs
+ 
+( "0*
+0
+ 
+(*
+1* 
+1
+ (%^
+\
+
+ (	
+
+%0void"object.Object()*3
+
+ (	'%
+#FirstAPI.Services.DepartmnetService«
+¨
+ ($]%
+#FirstAPI.Services.DepartmnetService"4
+_repository%FirstAPI.Interfaces.IRepository<K, T>"__id*75
+3
+
+repository%FirstAPI.Interfaces.IRepository<K, T>*
+2*.
+2	 (	"
+ (	
+implicit return:?
+
+! 
+(G3
+
+repository%FirstAPI.Interfaces.IRepository<K, T>B'%
+#FirstAPI.Services.DepartmnetServiceX
